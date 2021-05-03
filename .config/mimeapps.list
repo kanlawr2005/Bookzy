@@ -1,0 +1,4 @@
+[Added Associations]
+text/plain=vim.desktop;
+application/vnd.ms-publisher=exo-mail-reader.desktop;xfce4-notes.desktop;gcr-viewer.desktop;mousepad.desktop;userapp-Mail Recipient-IUQQ20.desktop;firefox.desktop;exo-file-manager.desktop;google-chrome.desktop;xfce4-clipman.desktop;
+x-scheme-handler/mailto=exo-mail-reader.desktop
