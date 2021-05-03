@@ -138,3 +138,22 @@ git add .
 git status
 git commit. -m "This folder includes all the demo files"
 yes
+clear
+echo "Adding new context"
+echo "Adding new context">>Readme.txt
+git status
+git reset --hard
+git status
+cat Readme.txt
+rm readme.txt
+git status
+clear
+echo "Adding new contxt" >>readme.txt
+git add /.
+git add .
+git commit -m "Adding New content"
+git log
+cat Readme.txt
+git revert commit 89fa79d32f14e1f61fe03850be32bd984a5c91ce
+git revert 89fa79d32f14e1f61fe03850be32bd984a5c91ce
+cat Readme.txt
