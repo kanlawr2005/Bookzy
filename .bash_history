@@ -372,3 +372,58 @@ git branch
 git status
 git branch
 git log
+git status
+vi branch1.txt
+git status
+git add .
+git commit -m "Committing file branch1.txt"
+clear
+git status
+git log
+git branch
+git ls-files
+git checkout Robert
+git chekout 
+git checkout Master
+git checkout Robert
+git ls-files
+git chekout master
+git checkout master
+git commit -m "this is my branch"
+git branch
+git checkout Robert
+git checkout master
+git branch
+git merge Robert 
+git merge master
+clear
+git status
+git log
+git status
+git branch Robert
+git checkout Robert
+git checkout master
+git branch
+git checkout Robert
+git status
+git branch
+git log
+git status
+git add branch1.txt
+git commit -m "Committing file Branch1.txt"
+git log
+git log Robert
+git branch
+git ls-files
+git checkout master
+git add .
+git status
+git checkout master
+git checkout Robert
+git ls-files
+git checkout Robert
+git branch
+git merge Robert
+git merge master
+git status
+git log
