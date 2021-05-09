@@ -427,3 +427,11 @@ git merge Robert
 git merge master
 git status
 git log
+git branch
+git branch rebasebranch
+git checkout rebasebranch
+vi lawrence1.txt
+vi lawrence2.txt
+git add .
+git commit -m "Updating lawrence1.txt in rebase branch"
+git log

@@ -28,18 +28,19 @@
 	t
 
 # File marks:
-'0  1  14  ~/lawrence2.txt
-'1  1  11  ~/lawrence1.txt
-'2  1  36  ~/branch1.txt
-'3  1  22  ~/demoapp1/demoapp1/lawrence1.txt
-'4  3  8  ~/demoapp1/demoapp1/lawrence1.txt
-'5  4  26  ~/demoapp/robert1.txt
-'6  6  0  ~/demoapp/robert1.txt
-'7  1  27  ~/demoapp/robert1.txt
-'8  6  6  ~/lab2.1/index.html
-'9  12  0  ~/lab2.1/javaprog.java
+'0  1  20  ~/lawrence3.txt
+'1  1  14  ~/lawrence2.txt
+'2  1  11  ~/lawrence1.txt
+'3  1  36  ~/branch1.txt
+'4  1  22  ~/demoapp1/demoapp1/lawrence1.txt
+'5  3  8  ~/demoapp1/demoapp1/lawrence1.txt
+'6  4  26  ~/demoapp/robert1.txt
+'7  6  0  ~/demoapp/robert1.txt
+'8  1  27  ~/demoapp/robert1.txt
+'9  6  6  ~/lab2.1/index.html
 
 # Jumplist (newest first):
+-'  1  20  ~/lawrence3.txt
 -'  1  14  ~/lawrence2.txt
 -'  1  11  ~/lawrence1.txt
 -'  1  36  ~/branch1.txt
@@ -137,9 +138,14 @@
 -'  7  0  ~/lab/javaprog.java
 -'  1  0  ~/lab/javaprog.java
 -'  7  0  ~/lab/javaprog.java
--'  1  0  ~/lab/javaprog.java
 
 # History of marks within files (newest to oldest):
+
+> ~/lawrence3.txt
+	"	1	20
+	^	1	21
+	.	1	20
+	+	1	20
 
 > ~/lawrence2.txt
 	"	1	14
