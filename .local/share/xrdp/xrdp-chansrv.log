@@ -1,7 +1,1 @@
-[20210503-16:32:15] [CORE ] main: app started pid 3077(0x00000c05)
-[20210503-16:39:00] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
-[20210503-16:48:25] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
-[20210503-16:52:25] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
-[20210503-16:57:13] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
-[20210503-17:17:10] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
-[20210503-17:26:56] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210509-10:20:09] [CORE ] main: app started pid 20730(0x000050fa)

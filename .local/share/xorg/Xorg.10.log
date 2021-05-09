@@ -1,563 +1,527 @@
-[   153.966] 
+[   534.735] 
 X.Org X Server 1.19.2
 Release Date: 2017-03-02
-[   153.966] X Protocol Version 11, Revision 0
-[   153.966] Build Operating System: Linux 4.9.0-8-amd64 x86_64 Debian
-[   153.966] Current Operating System: Linux kanlawr2005yaho 4.15.0-1066-azure #71-Ubuntu SMP Thu Dec 12 20:35:32 UTC 2019 x86_64
-[   153.966] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-1066-azure root=UUID=408a4949-3bac-4860-bf5d-9cfa3c59582d ro console=tty1 console=ttyS0 earlyprintk=ttyS0 rootdelay=300
-[   153.966] Build Date: 03 November 2018  03:09:11AM
-[   153.966] xorg-server 2:1.19.2-1+deb9u5 (https://www.debian.org/support) 
-[   153.966] Current version of pixman: 0.33.6
-[   153.966] 	Before reporting problems, check http://wiki.x.org
+[   534.735] X Protocol Version 11, Revision 0
+[   534.735] Build Operating System: Linux 4.9.0-8-amd64 x86_64 Debian
+[   534.735] Current Operating System: Linux kanlawr2005yaho 4.15.0-1066-azure #71-Ubuntu SMP Thu Dec 12 20:35:32 UTC 2019 x86_64
+[   534.735] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-1066-azure root=UUID=408a4949-3bac-4860-bf5d-9cfa3c59582d ro console=tty1 console=ttyS0 earlyprintk=ttyS0 rootdelay=300
+[   534.735] Build Date: 03 November 2018  03:09:11AM
+[   534.735] xorg-server 2:1.19.2-1+deb9u5 (https://www.debian.org/support) 
+[   534.735] Current version of pixman: 0.33.6
+[   534.735] 	Before reporting problems, check http://wiki.x.org
 	to make sure that you have the latest version.
-[   153.966] Markers: (--) probed, (**) from config file, (==) default setting,
+[   534.735] Markers: (--) probed, (**) from config file, (==) default setting,
 	(++) from command line, (!!) notice, (II) informational,
 	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
-[   153.966] (==) Log file: "/home/kanlawr2005yaho/.local/share/xorg/Xorg.10.log", Time: Mon May  3 16:32:15 2021
-[   154.076] (++) Using config file: "/etc/X11/xrdp/xorg.conf"
-[   154.076] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
-[   154.128] (==) ServerLayout "X11 Server"
-[   154.128] (**) |-->Screen "Screen (xrdpdev)" (0)
-[   154.128] (**) |   |-->Monitor "Monitor"
-[   154.129] (**) |   |-->Device "Video Card (xrdpdev)"
-[   154.129] (**) |-->Input Device "xrdpMouse"
-[   154.129] (**) |-->Input Device "xrdpKeyboard"
-[   154.129] (**) Option "DontVTSwitch" "on"
-[   154.129] (**) Option "AutoAddDevices" "off"
-[   154.129] (**) Not automatically adding devices
-[   154.129] (==) Automatically enabling devices
-[   154.129] (==) Automatically adding GPU devices
-[   154.129] (==) Max clients allowed: 256, resource mask: 0x1fffff
-[   154.131] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
-[   154.131] 	Entry deleted from font path.
-[   154.131] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
-[   154.131] 	Entry deleted from font path.
-[   154.131] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
-[   154.131] 	Entry deleted from font path.
-[   154.132] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
-[   154.132] 	Entry deleted from font path.
-[   154.132] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
-[   154.132] 	Entry deleted from font path.
-[   154.132] (==) FontPath set to:
+[   534.735] (==) Log file: "/home/kanlawr2005yaho/.local/share/xorg/Xorg.10.log", Time: Sun May  9 08:43:29 2021
+[   534.827] (++) Using config file: "/etc/X11/xrdp/xorg.conf"
+[   534.827] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   534.856] (==) ServerLayout "X11 Server"
+[   534.856] (**) |-->Screen "Screen (xrdpdev)" (0)
+[   534.856] (**) |   |-->Monitor "Monitor"
+[   534.856] (**) |   |-->Device "Video Card (xrdpdev)"
+[   534.856] (**) |-->Input Device "xrdpMouse"
+[   534.856] (**) |-->Input Device "xrdpKeyboard"
+[   534.856] (**) Option "DontVTSwitch" "on"
+[   534.856] (**) Option "AutoAddDevices" "off"
+[   534.856] (**) Not automatically adding devices
+[   534.856] (==) Automatically enabling devices
+[   534.856] (==) Automatically adding GPU devices
+[   534.856] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   534.857] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[   534.857] 	Entry deleted from font path.
+[   534.857] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[   534.857] 	Entry deleted from font path.
+[   534.857] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[   534.857] 	Entry deleted from font path.
+[   534.858] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[   534.858] 	Entry deleted from font path.
+[   534.858] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[   534.858] 	Entry deleted from font path.
+[   534.858] (==) FontPath set to:
 	/usr/share/fonts/X11/misc,
 	/usr/share/fonts/X11/Type1,
 	built-ins
-[   154.132] (==) ModulePath set to "/usr/lib/xorg/modules"
-[   154.132] (II) Loader magic: 0x55ce4a57ee00
-[   154.132] (II) Module ABI versions:
-[   154.132] 	X.Org ANSI C Emulation: 0.4
-[   154.132] 	X.Org Video Driver: 23.0
-[   154.132] 	X.Org XInput driver : 24.1
-[   154.132] 	X.Org Server Extension : 10.0
-[   154.135] (II) systemd-logind: took control of session /org/freedesktop/login1/session/c1
-[   154.151] (--) PCI:*(0:0:8:0) 1414:5353:0000:0000 rev 0, Mem @ 0xf8000000/67108864, BIOS @ 0x????????/131072
-[   154.160] (II) "glx" will be loaded. This was enabled by default and also specified in the config file.
-[   154.160] (II) LoadModule: "dbe"
-[   154.160] (II) Module "dbe" already built-in
-[   154.160] (II) LoadModule: "ddc"
-[   154.160] (II) Module "ddc" already built-in
-[   154.160] (II) LoadModule: "extmod"
-[   154.160] (II) Module "extmod" already built-in
-[   154.160] (II) LoadModule: "glx"
-[   154.162] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
-[   154.257] (II) Module glx: vendor="X.Org Foundation"
-[   154.257] 	compiled for 1.19.2, module version = 1.0.0
-[   154.257] 	ABI class: X.Org Server Extension, version 10.0
-[   154.257] (II) LoadModule: "int10"
-[   154.257] (II) Loading /usr/lib/xorg/modules/libint10.so
-[   154.278] (II) Module int10: vendor="X.Org Foundation"
-[   154.278] 	compiled for 1.19.2, module version = 1.0.0
-[   154.278] 	ABI class: X.Org Video Driver, version 23.0
-[   154.278] (II) LoadModule: "record"
-[   154.278] (II) Module "record" already built-in
-[   154.278] (II) LoadModule: "vbe"
-[   154.278] (II) Loading /usr/lib/xorg/modules/libvbe.so
-[   154.278] (II) Module vbe: vendor="X.Org Foundation"
-[   154.278] 	compiled for 1.19.2, module version = 1.1.0
-[   154.278] 	ABI class: X.Org Video Driver, version 23.0
-[   154.278] (II) LoadModule: "xorgxrdp"
-[   154.278] (II) Loading /usr/lib/xorg/modules/libxorgxrdp.so
-[   154.298] (II) Module XORGXRDP: vendor="X.Org Foundation"
-[   154.298] 	compiled for 1.19.2, module version = 1.0.0
-[   154.298] 	ABI class: X.Org Video Driver, version 23.0
-[   154.298] xorgxrdpSetup:
-[   154.298] (II) LoadModule: "fb"
-[   154.298] (II) Loading /usr/lib/xorg/modules/libfb.so
-[   154.299] (II) Module fb: vendor="X.Org Foundation"
-[   154.299] 	compiled for 1.19.2, module version = 1.0.0
-[   154.299] 	ABI class: X.Org ANSI C Emulation, version 0.4
-[   154.299] (II) LoadModule: "xrdpdev"
-[   154.299] (II) Loading /usr/lib/xorg/modules/drivers/xrdpdev_drv.so
-[   154.299] (II) Module XRDPDEV: vendor="X.Org Foundation"
-[   154.299] 	compiled for 1.19.2, module version = 1.0.0
-[   154.299] 	ABI class: X.Org Video Driver, version 23.0
-[   154.299] xrdpdevSetup:
-[   154.299] (II) LoadModule: "xrdpmouse"
-[   154.299] (II) Loading /usr/lib/xorg/modules/input/xrdpmouse_drv.so
-[   154.300] (II) Module XRDPMOUSE: vendor="X.Org Foundation"
-[   154.300] 	compiled for 1.19.2, module version = 1.0.0
-[   154.300] 	Module class: X.Org XInput Driver
-[   154.300] 	ABI class: X.Org XInput driver, version 24.1
-[   154.300] rdpmousePlug:
-[   154.300] (II) LoadModule: "xrdpkeyb"
-[   154.300] (II) Loading /usr/lib/xorg/modules/input/xrdpkeyb_drv.so
-[   154.300] (II) Module XRDPKEYB: vendor="X.Org Foundation"
-[   154.300] 	compiled for 1.19.2, module version = 1.0.0
-[   154.300] 	Module class: X.Org XInput Driver
-[   154.300] 	ABI class: X.Org XInput driver, version 24.1
-[   154.300] rdpkeybPlug:
-[   154.300] rdpIdentify:
-[   154.300] (II) XRDPDEV: driver for xrdp: XRDPDEV
-[   154.300] rdpDriverFunc: op 10
-[   154.300] (WW) Falling back to old probe method for XRDPDEV
-[   154.300] rdpProbe:
-[   154.300] (II) Loading sub module "fb"
-[   154.300] (II) LoadModule: "fb"
-[   154.300] (II) Loading /usr/lib/xorg/modules/libfb.so
-[   154.300] (II) Module fb: vendor="X.Org Foundation"
-[   154.300] 	compiled for 1.19.2, module version = 1.0.0
-[   154.300] 	ABI class: X.Org ANSI C Emulation, version 0.4
-[   154.300] (II) XRDPDEV(0): using default device
-[   154.300] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
-[   154.300] rdpPreInit:
-[   154.300] (**) XRDPDEV(0): Depth 24, (--) framebuffer bpp 32
-[   154.300] (==) XRDPDEV(0): RGB weight 888
-[   154.300] (==) XRDPDEV(0): Using gamma correction (1.0, 1.0, 1.0)
-[   154.300] (==) XRDPDEV(0): Default visual is TrueColor
-[   154.300] (==) XRDPDEV(0): DPI set to (96, 96)
-[   154.300] (II) XRDPDEV(0): 	mode "640x480" ok
-[   154.300] (II) XRDPDEV(0): 	mode "800x600" ok
-[   154.300] (--) XRDPDEV(0): Virtual size is 800x600 (pitch 800)
-[   154.300] (**) XRDPDEV(0):  Default mode "800x600": 36.0 MHz (scaled from 0.0 MHz), 35.2 kHz, 56.2 Hz
-[   154.300] (II) XRDPDEV(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
-[   154.300] (==) Depth 24 pixmap format is 32 bpp
-[   154.301] rdpScreenInit: virtualX 800 virtualY 600 rgbBits 8 depth 24
-[   154.301] rdpScreenInit: pfbMemory bytes 1920000
-[   154.301] rdpScreenInit: pfbMemory 0x7fd83c841010
-[   154.301] rdpSimdInit: assigning yuv functions
-[   154.301] rdpSimdInit: cpuid ax 1 cx 0 return ax 0x000406f1 bx 0x00020800 cx 0xfeda3223 dx 0x1f8bfbff
-[   154.301] rdpSimdInit: sse2 amd64 yuv functions assigned
-[   154.301] rdpXvInit: depth 24
-[   154.301] (==) XRDPDEV(0): Backing store enabled
-[   154.302] rdpScreenInit: out
-[   154.302] (==) RandR enabled
-[   154.306] (II) SELinux: Disabled on system
-[   154.306] (II) AIGLX: Screen 0 is not DRI2 capable
-[   154.307] (EE) AIGLX: reverting to software rendering
-[   156.332] (II) IGLX: enabled GLX_MESA_copy_sub_buffer
-[   156.333] (II) IGLX: Loaded and initialized swrast
-[   156.333] (II) GLX: Initialized DRISWRAST GL provider for screen 0
-[   156.600] (II) Using input driver 'XRDPMOUSE' for 'xrdpMouse'
-[   156.600] (**) Option "CorePointer"
-[   156.600] (**) xrdpMouse: always reports core events
-[   156.600] rdpmousePreInit: drv 0x55ce4bca9850 info 0x55ce4bdc23d0, flags 0x0
-[   156.600] (II) XINPUT: Adding extended input device "xrdpMouse" (type: Mouse, id 6)
-[   156.600] rdpmouseControl: what 0
-[   156.600] rdpmouseDeviceInit:
-[   156.600] rdpmouseCtrl:
-[   156.600] rdpRegisterInputCallback: type 1 proc 0x7fd83cc1ac70
-[   156.600] (**) xrdpMouse: (accel) keeping acceleration scheme 1
-[   156.600] (**) xrdpMouse: (accel) acceleration profile 0
-[   156.600] (**) xrdpMouse: (accel) acceleration factor: 2.000
-[   156.600] (**) xrdpMouse: (accel) acceleration threshold: 4
-[   156.600] rdpmouseControl: what 1
-[   156.600] rdpmouseDeviceOn:
-[   156.600] (II) Using input driver 'XRDPKEYB' for 'xrdpKeyboard'
-[   156.600] (**) Option "CoreKeyboard"
-[   156.600] (**) xrdpKeyboard: always reports core events
-[   156.600] rdpkeybPreInit: drv 0x55ce4bca9ff0 info 0x55ce4bf4be50, flags 0x0
-[   156.600] (II) XINPUT: Adding extended input device "xrdpKeyboard" (type: Keyboard, id 7)
-[   156.600] rdpkeybControl: what 0
-[   156.600] rdpkeybDeviceInit:
-[   156.614] rdpkeybChangeKeyboardControl:
-[   156.614] rdpkeybChangeKeyboardControl: autoRepeat on
-[   156.614] rdpRegisterInputCallback: type 0 proc 0x7fd83ca17530
-[   156.614] rdpkeybControl: what 1
-[   156.614] rdpkeybDeviceOn:
-[   156.621] (II) config/udev: Adding input device Microsoft Vmbus HID-compliant Mouse (/dev/input/event3)
-[   156.621] (II) AutoAddDevices is off - not adding device.
-[   156.621] (II) config/udev: Adding input device Microsoft Vmbus HID-compliant Mouse (/dev/input/js0)
-[   156.621] (II) AutoAddDevices is off - not adding device.
-[   156.621] (II) config/udev: Adding input device Microsoft Vmbus HID-compliant Mouse (/dev/input/mouse0)
-[   156.621] (II) AutoAddDevices is off - not adding device.
-[   156.621] (II) config/udev: Adding input device Power Button (/dev/input/event0)
-[   156.621] (II) AutoAddDevices is off - not adding device.
-[   156.622] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
-[   156.622] (II) AutoAddDevices is off - not adding device.
-[   156.622] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event1)
-[   156.622] (II) AutoAddDevices is off - not adding device.
-[   156.627] rdpSaveScreen:
-[   156.627] rdpDeferredRandR:
-[   156.627] rdpResizeSession: width 1024 height 768
-[   156.627]   calling RRScreenSizeSet
-[   156.627] rdpRRScreenSetSize: width 1024 height 768 mmWidth 271 mmHeight 203
-[   156.627] rdpRRGetInfo:
-[   156.627]   screen resized to 1024x768
-[   156.628]   RRScreenSizeSet ok 1
-[   156.629] rdpResizeSession: width 1280 height 610
-[   156.629]   calling RRScreenSizeSet
-[   156.629] rdpRRScreenSetSize: width 1280 height 610 mmWidth 339 mmHeight 161
-[   156.629] rdpRRGetInfo:
-[   156.629]   screen resized to 1280x610
-[   156.629]   RRScreenSizeSet ok 1
-[   156.629] rdpClientConGotConnection:
-[   156.629] rdpClientConGotConnection: g_sck_accept ok new_sck 7
-[   156.629] rdpClientConGotConnection: adding only clientCon
-[   156.629] rdpClientConProcessMsgVersion: version 0 0 0 1
-[   156.630] rdpClientConProcessScreenSizeMsg: set width 1280 height 610 bpp 16
-[   156.630] rdpClientConProcessScreenSizeMsg: shmemid 163844 shmemptr 0x7fd83c898000
-[   156.630] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1280 cy 610
-[   156.631] rdpClientConProcessMsgClientInfo:
-[   156.631]   got client info bytes 5792
-[   156.631]   jpeg support 0
-[   156.631]   offscreen support 0
-[   156.631]   offscreen size 0
-[   156.631]   offscreen entries 0
-[   156.631]   client supports glyph cache but server disabled
-[   156.631]   client can not do offscreen to offscreen blits
-[   156.631]   client can do new(color) cursor
-[   156.631]   client can not do multimon
-[   156.631] rdpRRSetRdpOutputs: numCrtcs 0
-[   156.631] rdpRRSetRdpOutputs: numOutputs 0
-[   156.631] rdpLoadLayout: keylayout 0x00000409 variant  display 10
-[   156.631] rdpkeybChangeKeyboardControl:
-[   156.631] rdpkeybChangeKeyboardControl: autoRepeat on
-[   156.632] rdpkeybChangeKeyboardControl:
-[   156.632] rdpkeybChangeKeyboardControl: autoRepeat on
-[   156.732] rdpInDeferredUpdateCallback:
-[   156.732] rdpkeybChangeKeyboardControl:
-[   156.732] rdpkeybChangeKeyboardControl: autoRepeat off
-[   156.732] rdpkeybChangeKeyboardControl:
-[   156.732] rdpkeybChangeKeyboardControl: autoRepeat off
-[   158.634] rdpRRGetPanning: 0x55ce4bc83190
-[   158.835] rdpRRGetPanning: 0x55ce4bc83190
-[   158.871] rdpRRGetPanning: 0x55ce4bc83190
-[   158.874] rdpRRGetPanning: 0x55ce4bc83190
-[   158.876] rdpRRGetPanning: 0x55ce4bc83190
-[   158.890] rdpRRGetPanning: 0x55ce4bc83190
-[   158.913] rdpRRGetPanning: 0x55ce4bc83190
-[   158.938] rdpRRGetPanning: 0x55ce4bc83190
-[   158.959] rdpRRGetPanning: 0x55ce4bc83190
-[   158.985] rdpRRGetPanning: 0x55ce4bc83190
-[   158.994] rdpRRGetPanning: 0x55ce4bc83190
-[   159.050] rdpRRGetInfo:
-[   159.052] rdpRRGetPanning: 0x55ce4bc83190
-[   159.100] rdpRRGetPanning: 0x55ce4bc83190
-[   159.127] rdpRRGetInfo:
-[   159.127] rdpRRGetInfo:
-[   159.128] rdpRRGetPanning: 0x55ce4bc83190
-[   159.128] rdpRRGetPanning: 0x55ce4bc83190
-[   159.189] rdpkeybChangeKeyboardControl:
-[   159.189] rdpkeybChangeKeyboardControl: autoRepeat on
-[   159.189] rdpkeybChangeKeyboardControl:
-[   159.189] rdpkeybChangeKeyboardControl: autoRepeat on
-[   159.190] rdpkeybChangeKeyboardControl:
-[   159.190] rdpkeybChangeKeyboardControl: autoRepeat on
-[   159.190] rdpkeybChangeKeyboardControl:
-[   159.190] rdpkeybChangeKeyboardControl: autoRepeat on
-[   159.191] rdpkeybChangeKeyboardControl:
-[   159.191] rdpkeybChangeKeyboardControl: autoRepeat on
-[   159.191] rdpkeybChangeKeyboardControl:
-[   159.191] rdpkeybChangeKeyboardControl: autoRepeat on
-[   159.291] rdpInDeferredUpdateCallback:
-[   159.291] rdpkeybChangeKeyboardControl:
-[   159.291] rdpkeybChangeKeyboardControl: autoRepeat off
-[   159.291] rdpkeybChangeKeyboardControl:
-[   159.291] rdpkeybChangeKeyboardControl: autoRepeat off
-[   159.303] rdpSaveScreen:
-[   159.698] rdpkeybChangeKeyboardControl:
-[   159.698] rdpkeybChangeKeyboardControl: autoRepeat off
-[   159.698] rdpkeybChangeKeyboardControl:
-[   159.698] rdpkeybChangeKeyboardControl: autoRepeat off
-[   159.837] rdpRRGetInfo:
-[   160.233] rdpRRGetPanning: 0x55ce4bc83190
-[   160.239] rdpRRGetPanning: 0x55ce4bc83190
-[   558.599] rdpClientConGotConnection:
-[   558.599] rdpClientConGotConnection: g_sck_accept ok new_sck 37
-[   558.599] rdpClientConGotConnection: disconnecting only clientCon
-[   558.599] rdpClientConDisconnect:
-[   558.599] rdpClientConDisconnect: clientCon removed from dev list
-[   558.599] rdpClientConGotConnection: adding only clientCon
-[   558.614] rdpClientConProcessMsgVersion: version 0 0 0 1
-[   558.614] rdpClientConProcessScreenSizeMsg: set width 1280 height 610 bpp 16
-[   558.614] rdpClientConProcessScreenSizeMsg: shmemid 950285 shmemptr 0x7fd834e56000
-[   558.614] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1280 cy 610
-[   558.655] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   558.695] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   558.735] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   558.775] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   558.816] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   558.857] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   558.897] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   558.937] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   558.977] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   559.017] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   559.057] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   559.098] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   559.138] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   559.178] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   559.218] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   559.258] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   559.299] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[   559.309] rdpClientConProcessMsgClientInfo:
-[   559.309]   got client info bytes 5792
-[   559.309]   jpeg support 0
-[   559.309]   offscreen support 0
-[   559.309]   offscreen size 0
-[   559.309]   offscreen entries 0
-[   559.309]   client supports glyph cache but server disabled
-[   559.309]   client can not do offscreen to offscreen blits
-[   559.309]   client can do new(color) cursor
-[   559.309]   client can not do multimon
-[   559.309] rdpRRSetRdpOutputs: numCrtcs 1
-[   559.309] rdpRRSetRdpOutputs: numOutputs 1
-[   559.310] rdpLoadLayout: keylayout 0x00000409 variant  display 10
-[   559.310] rdpkeybChangeKeyboardControl:
-[   559.310] rdpkeybChangeKeyboardControl: autoRepeat on
-[   559.318] rdpkeybChangeKeyboardControl:
-[   559.318] rdpkeybChangeKeyboardControl: autoRepeat on
-[   559.321] rdpRRGetPanning: 0x55ce4bc83190
-[   559.321] rdpRRGetPanning: 0x55ce4bc83190
-[   559.321] rdpRRGetInfo:
-[   559.321] rdpRRGetPanning: 0x55ce4bc83190
-[   559.321] rdpRRGetPanning: 0x55ce4bc83190
-[   559.322] rdpRRGetPanning: 0x55ce4bc83190
-[   559.322] rdpRRGetPanning: 0x55ce4bc83190
-[   559.322] rdpRRGetPanning: 0x55ce4bc83190
-[   559.323] rdpRRGetPanning: 0x55ce4bc83190
-[   559.323] rdpRRGetPanning: 0x55ce4bc83190
-[   559.323] rdpRRGetPanning: 0x55ce4bc83190
-[   559.324] rdpRRGetPanning: 0x55ce4bc83190
-[   559.324] rdpRRGetPanning: 0x55ce4bc83190
-[   559.324] rdpRRGetPanning: 0x55ce4bc83190
-[   559.324] rdpRRGetPanning: 0x55ce4bc83190
-[   559.324] rdpRRGetPanning: 0x55ce4bc83190
-[   559.324] rdpRRGetPanning: 0x55ce4bc83190
-[   559.325] rdpRRGetPanning: 0x55ce4bc83190
-[   559.325] rdpRRGetPanning: 0x55ce4bc83190
-[   559.325] rdpRRGetPanning: 0x55ce4bc83190
-[   559.325] rdpRRGetPanning: 0x55ce4bc83190
-[   559.326] rdpRRGetPanning: 0x55ce4bc83190
-[   559.326] rdpRRGetPanning: 0x55ce4bc83190
-[   559.326] rdpRRGetPanning: 0x55ce4bc83190
-[   559.326] rdpRRGetPanning: 0x55ce4bc83190
-[   559.327] rdpRRGetPanning: 0x55ce4bc83190
-[   559.327] rdpRRGetPanning: 0x55ce4bc83190
-[   559.327] rdpRRGetPanning: 0x55ce4bc83190
-[   559.327] rdpRRGetPanning: 0x55ce4bc83190
-[   559.328] rdpRRGetInfo:
-[   559.328] rdpRRGetInfo:
-[   559.328] rdpRRGetPanning: 0x55ce4bc83190
-[   559.329] rdpRRGetPanning: 0x55ce4bc83190
-[   559.516] rdpInDeferredUpdateCallback:
-[   559.516] rdpkeybChangeKeyboardControl:
-[   559.516] rdpkeybChangeKeyboardControl: autoRepeat off
-[   559.516] rdpkeybChangeKeyboardControl:
-[   559.516] rdpkeybChangeKeyboardControl: autoRepeat off
-[  1091.933] rdpClientConRecv: g_sck_recv failed(returned 0)
-[  1091.933] rdpClientConDisconnect:
-[  1091.933] rdpClientConDisconnect: clientCon removed from dev list
-[  1091.933] rdpClientConRecvMsg: error
-[  1091.933] rdpClientConCheck: rdpClientConGotData failed
-[  1123.637] rdpClientConGotConnection:
-[  1123.637] rdpClientConGotConnection: g_sck_accept ok new_sck 7
-[  1123.637] rdpClientConGotConnection: adding only clientCon
-[  1123.657] rdpClientConProcessMsgVersion: version 0 0 0 1
-[  1123.657] rdpClientConProcessScreenSizeMsg: set width 1280 height 610 bpp 16
-[  1123.657] rdpClientConProcessScreenSizeMsg: shmemid 983054 shmemptr 0x7fd834cd8000
-[  1123.657] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1280 cy 610
-[  1123.697] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[  1123.698] rdpClientConProcessMsgClientInfo:
-[  1123.698]   got client info bytes 5792
-[  1123.698]   jpeg support 0
-[  1123.698]   offscreen support 0
-[  1123.698]   offscreen size 0
-[  1123.698]   offscreen entries 0
-[  1123.698]   client supports glyph cache but server disabled
-[  1123.698]   client can not do offscreen to offscreen blits
-[  1123.698]   client can do new(color) cursor
-[  1123.698]   client can not do multimon
-[  1123.698] rdpRRSetRdpOutputs: numCrtcs 1
-[  1123.698] rdpRRSetRdpOutputs: numOutputs 1
-[  1123.699] rdpLoadLayout: keylayout 0x00000409 variant  display 10
-[  1123.700] rdpkeybChangeKeyboardControl:
-[  1123.700] rdpkeybChangeKeyboardControl: autoRepeat on
-[  1123.705] rdpkeybChangeKeyboardControl:
-[  1123.705] rdpkeybChangeKeyboardControl: autoRepeat on
-[  1123.707] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.707] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.707] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.707] rdpRRGetInfo:
-[  1123.707] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.707] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.707] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.707] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.708] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.708] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.708] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.709] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.709] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.709] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.709] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.709] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.709] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.709] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.710] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.710] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.710] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.710] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.711] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.711] rdpRRGetInfo:
-[  1123.711] rdpRRGetInfo:
-[  1123.711] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.711] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.711] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.712] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.712] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.713] rdpRRGetPanning: 0x55ce4bc83190
-[  1123.808] rdpInDeferredUpdateCallback:
-[  1123.808] rdpkeybChangeKeyboardControl:
-[  1123.808] rdpkeybChangeKeyboardControl: autoRepeat off
-[  1123.808] rdpkeybChangeKeyboardControl:
-[  1123.808] rdpkeybChangeKeyboardControl: autoRepeat off
-[  1128.010] rdpRRGetPanning: 0x55ce4bc83190
-[  1128.055] rdpRRGetPanning: 0x55ce4bc83190
-[  1128.290] rdpRRGetPanning: 0x55ce4bc83190
-[  1229.649] rdpClientConRecv: g_sck_recv failed(returned 0)
-[  1229.649] rdpClientConDisconnect:
-[  1229.649] rdpClientConDisconnect: clientCon removed from dev list
-[  1229.649] rdpClientConRecvMsg: error
-[  1229.649] rdpClientConCheck: rdpClientConGotData failed
-[  1363.831] rdpClientConGotConnection:
-[  1363.831] rdpClientConGotConnection: g_sck_accept ok new_sck 7
-[  1363.831] rdpClientConGotConnection: adding only clientCon
-[  1363.851] rdpClientConProcessMsgVersion: version 0 0 0 1
-[  1363.851] rdpClientConProcessScreenSizeMsg: set width 1280 height 610 bpp 16
-[  1363.851] rdpClientConProcessScreenSizeMsg: shmemid 1114128 shmemptr 0x7fd834afa000
-[  1363.851] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1280 cy 610
-[  1363.891] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[  1363.892] rdpClientConProcessMsgClientInfo:
-[  1363.892]   got client info bytes 5792
-[  1363.892]   jpeg support 0
-[  1363.892]   offscreen support 0
-[  1363.892]   offscreen size 0
-[  1363.892]   offscreen entries 0
-[  1363.892]   client supports glyph cache but server disabled
-[  1363.892]   client can not do offscreen to offscreen blits
-[  1363.892]   client can do new(color) cursor
-[  1363.892]   client can not do multimon
-[  1363.892] rdpRRSetRdpOutputs: numCrtcs 1
-[  1363.892] rdpRRSetRdpOutputs: numOutputs 1
-[  1363.892] rdpLoadLayout: keylayout 0x00000409 variant  display 10
-[  1363.892] rdpkeybChangeKeyboardControl:
-[  1363.892] rdpkeybChangeKeyboardControl: autoRepeat on
-[  1363.893] rdpkeybChangeKeyboardControl:
-[  1363.893] rdpkeybChangeKeyboardControl: autoRepeat on
-[  1363.901] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.901] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.901] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.902] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.902] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.902] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.902] rdpRRGetInfo:
-[  1363.902] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.903] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.903] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.903] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.903] rdpRRGetInfo:
-[  1363.904] rdpRRGetInfo:
-[  1363.904] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.904] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.904] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.904] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.904] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.904] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.905] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.905] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.905] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.905] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.906] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.906] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.906] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.906] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.906] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.907] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.907] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.907] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.909] rdpRRGetPanning: 0x55ce4bc83190
-[  1363.910] rdpRRGetPanning: 0x55ce4bc83190
-[  1364.004] rdpInDeferredUpdateCallback:
-[  1364.004] rdpkeybChangeKeyboardControl:
-[  1364.004] rdpkeybChangeKeyboardControl: autoRepeat off
-[  1364.004] rdpkeybChangeKeyboardControl:
-[  1364.004] rdpkeybChangeKeyboardControl: autoRepeat off
-[  2279.337] rdpSaveScreen:
-[  2321.839] rdpClientConRecv: g_sck_recv failed(returned 0)
-[  2321.839] rdpClientConDisconnect:
-[  2321.839] rdpClientConDisconnect: clientCon removed from dev list
-[  2321.839] rdpClientConRecvMsg: error
-[  2321.839] rdpClientConCheck: rdpClientConGotData failed
-[  2848.588] rdpClientConGotConnection:
-[  2848.588] rdpClientConGotConnection: g_sck_accept ok new_sck 7
-[  2848.588] rdpClientConGotConnection: adding only clientCon
-[  2848.608] rdpClientConProcessMsgVersion: version 0 0 0 1
-[  2848.608] rdpClientConProcessScreenSizeMsg: set width 1280 height 610 bpp 16
-[  2848.608] rdpClientConProcessScreenSizeMsg: shmemid 1146897 shmemptr 0x7fd83497c000
-[  2848.608] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1280 cy 610
-[  2848.648] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
-[  2848.649] rdpClientConProcessMsgClientInfo:
-[  2848.649]   got client info bytes 5792
-[  2848.649]   jpeg support 0
-[  2848.649]   offscreen support 0
-[  2848.649]   offscreen size 0
-[  2848.649]   offscreen entries 0
-[  2848.649]   client supports glyph cache but server disabled
-[  2848.649]   client can not do offscreen to offscreen blits
-[  2848.649]   client can do new(color) cursor
-[  2848.649]   client can not do multimon
-[  2848.649] rdpRRSetRdpOutputs: numCrtcs 1
-[  2848.649] rdpRRSetRdpOutputs: numOutputs 1
-[  2848.649] rdpLoadLayout: keylayout 0x00000409 variant  display 10
-[  2848.650] rdpkeybChangeKeyboardControl:
-[  2848.650] rdpkeybChangeKeyboardControl: autoRepeat on
-[  2848.656] rdpkeybChangeKeyboardControl:
-[  2848.656] rdpkeybChangeKeyboardControl: autoRepeat on
-[  2848.657] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.657] rdpRRGetInfo:
-[  2848.657] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.657] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.657] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.657] rdpRRGetInfo:
-[  2848.657] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.657] rdpRRGetInfo:
-[  2848.657] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.657] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.657] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.657] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.657] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.657] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.657] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.658] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.658] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.659] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.659] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.659] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.659] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.659] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.659] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.659] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.659] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.659] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.659] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.659] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.660] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.660] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.661] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.662] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.662] rdpRRGetPanning: 0x55ce4bc83190
-[  2848.756] rdpInDeferredUpdateCallback:
-[  2848.756] rdpkeybChangeKeyboardControl:
-[  2848.756] rdpkeybChangeKeyboardControl: autoRepeat off
-[  2848.756] rdpkeybChangeKeyboardControl:
-[  2848.756] rdpkeybChangeKeyboardControl: autoRepeat off
-[  2849.956] rdpSaveScreen:
+[   534.858] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   534.858] (II) Loader magic: 0x55680b260e00
+[   534.858] (II) Module ABI versions:
+[   534.858] 	X.Org ANSI C Emulation: 0.4
+[   534.858] 	X.Org Video Driver: 23.0
+[   534.858] 	X.Org XInput driver : 24.1
+[   534.858] 	X.Org Server Extension : 10.0
+[   534.861] (II) systemd-logind: took control of session /org/freedesktop/login1/session/c2
+[   534.881] (--) PCI:*(0:0:8:0) 1414:5353:0000:0000 rev 0, Mem @ 0xf8000000/67108864, BIOS @ 0x????????/131072
+[   534.881] (II) "glx" will be loaded. This was enabled by default and also specified in the config file.
+[   534.881] (II) LoadModule: "dbe"
+[   534.881] (II) Module "dbe" already built-in
+[   534.881] (II) LoadModule: "ddc"
+[   534.881] (II) Module "ddc" already built-in
+[   534.881] (II) LoadModule: "extmod"
+[   534.881] (II) Module "extmod" already built-in
+[   534.881] (II) LoadModule: "glx"
+[   535.011] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   535.219] (II) Module glx: vendor="X.Org Foundation"
+[   535.219] 	compiled for 1.19.2, module version = 1.0.0
+[   535.219] 	ABI class: X.Org Server Extension, version 10.0
+[   535.219] (II) LoadModule: "int10"
+[   535.220] (II) Loading /usr/lib/xorg/modules/libint10.so
+[   535.247] (II) Module int10: vendor="X.Org Foundation"
+[   535.247] 	compiled for 1.19.2, module version = 1.0.0
+[   535.247] 	ABI class: X.Org Video Driver, version 23.0
+[   535.247] (II) LoadModule: "record"
+[   535.247] (II) Module "record" already built-in
+[   535.247] (II) LoadModule: "vbe"
+[   535.247] (II) Loading /usr/lib/xorg/modules/libvbe.so
+[   535.248] (II) Module vbe: vendor="X.Org Foundation"
+[   535.248] 	compiled for 1.19.2, module version = 1.1.0
+[   535.248] 	ABI class: X.Org Video Driver, version 23.0
+[   535.248] (II) LoadModule: "xorgxrdp"
+[   535.248] (II) Loading /usr/lib/xorg/modules/libxorgxrdp.so
+[   535.274] (II) Module XORGXRDP: vendor="X.Org Foundation"
+[   535.274] 	compiled for 1.19.2, module version = 1.0.0
+[   535.274] 	ABI class: X.Org Video Driver, version 23.0
+[   535.274] xorgxrdpSetup:
+[   535.274] (II) LoadModule: "fb"
+[   535.274] (II) Loading /usr/lib/xorg/modules/libfb.so
+[   535.275] (II) Module fb: vendor="X.Org Foundation"
+[   535.275] 	compiled for 1.19.2, module version = 1.0.0
+[   535.275] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   535.275] (II) LoadModule: "xrdpdev"
+[   535.275] (II) Loading /usr/lib/xorg/modules/drivers/xrdpdev_drv.so
+[   535.275] (II) Module XRDPDEV: vendor="X.Org Foundation"
+[   535.275] 	compiled for 1.19.2, module version = 1.0.0
+[   535.275] 	ABI class: X.Org Video Driver, version 23.0
+[   535.275] xrdpdevSetup:
+[   535.275] (II) LoadModule: "xrdpmouse"
+[   535.276] (II) Loading /usr/lib/xorg/modules/input/xrdpmouse_drv.so
+[   535.276] (II) Module XRDPMOUSE: vendor="X.Org Foundation"
+[   535.276] 	compiled for 1.19.2, module version = 1.0.0
+[   535.276] 	Module class: X.Org XInput Driver
+[   535.276] 	ABI class: X.Org XInput driver, version 24.1
+[   535.276] rdpmousePlug:
+[   535.276] (II) LoadModule: "xrdpkeyb"
+[   535.276] (II) Loading /usr/lib/xorg/modules/input/xrdpkeyb_drv.so
+[   535.276] (II) Module XRDPKEYB: vendor="X.Org Foundation"
+[   535.276] 	compiled for 1.19.2, module version = 1.0.0
+[   535.276] 	Module class: X.Org XInput Driver
+[   535.276] 	ABI class: X.Org XInput driver, version 24.1
+[   535.276] rdpkeybPlug:
+[   535.276] rdpIdentify:
+[   535.276] (II) XRDPDEV: driver for xrdp: XRDPDEV
+[   535.276] rdpDriverFunc: op 10
+[   535.276] (WW) Falling back to old probe method for XRDPDEV
+[   535.276] rdpProbe:
+[   535.276] (II) Loading sub module "fb"
+[   535.276] (II) LoadModule: "fb"
+[   535.277] (II) Loading /usr/lib/xorg/modules/libfb.so
+[   535.277] (II) Module fb: vendor="X.Org Foundation"
+[   535.277] 	compiled for 1.19.2, module version = 1.0.0
+[   535.277] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   535.277] (II) XRDPDEV(0): using default device
+[   535.277] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[   535.277] rdpPreInit:
+[   535.277] (**) XRDPDEV(0): Depth 24, (--) framebuffer bpp 32
+[   535.277] (==) XRDPDEV(0): RGB weight 888
+[   535.277] (==) XRDPDEV(0): Using gamma correction (1.0, 1.0, 1.0)
+[   535.277] (==) XRDPDEV(0): Default visual is TrueColor
+[   535.277] (==) XRDPDEV(0): DPI set to (96, 96)
+[   535.277] (II) XRDPDEV(0): 	mode "640x480" ok
+[   535.277] (II) XRDPDEV(0): 	mode "800x600" ok
+[   535.277] (--) XRDPDEV(0): Virtual size is 800x600 (pitch 800)
+[   535.277] (**) XRDPDEV(0):  Default mode "800x600": 36.0 MHz (scaled from 0.0 MHz), 35.2 kHz, 56.2 Hz
+[   535.277] (II) XRDPDEV(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+[   535.277] (==) Depth 24 pixmap format is 32 bpp
+[   535.277] rdpScreenInit: virtualX 800 virtualY 600 rgbBits 8 depth 24
+[   535.277] rdpScreenInit: pfbMemory bytes 1920000
+[   535.277] rdpScreenInit: pfbMemory 0x7f5433072010
+[   535.277] rdpSimdInit: assigning yuv functions
+[   535.277] rdpSimdInit: cpuid ax 1 cx 0 return ax 0x000406f1 bx 0x00020800 cx 0xfeda3223 dx 0x1f8bfbff
+[   535.277] rdpSimdInit: sse2 amd64 yuv functions assigned
+[   535.277] rdpXvInit: depth 24
+[   535.278] (==) XRDPDEV(0): Backing store enabled
+[   535.278] rdpScreenInit: out
+[   535.279] (==) RandR enabled
+[   535.284] (II) SELinux: Disabled on system
+[   535.285] (II) AIGLX: Screen 0 is not DRI2 capable
+[   535.285] (EE) AIGLX: reverting to software rendering
+[   537.232] (II) IGLX: enabled GLX_MESA_copy_sub_buffer
+[   537.233] (II) IGLX: Loaded and initialized swrast
+[   537.233] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[   537.479] (II) Using input driver 'XRDPMOUSE' for 'xrdpMouse'
+[   537.479] (**) Option "CorePointer"
+[   537.479] (**) xrdpMouse: always reports core events
+[   537.479] rdpmousePreInit: drv 0x55680be69860 info 0x55680bf82400, flags 0x0
+[   537.479] (II) XINPUT: Adding extended input device "xrdpMouse" (type: Mouse, id 6)
+[   537.479] rdpmouseControl: what 0
+[   537.479] rdpmouseDeviceInit:
+[   537.479] rdpmouseCtrl:
+[   537.479] rdpRegisterInputCallback: type 1 proc 0x7f543344bc70
+[   537.479] (**) xrdpMouse: (accel) keeping acceleration scheme 1
+[   537.479] (**) xrdpMouse: (accel) acceleration profile 0
+[   537.479] (**) xrdpMouse: (accel) acceleration factor: 2.000
+[   537.479] (**) xrdpMouse: (accel) acceleration threshold: 4
+[   537.479] rdpmouseControl: what 1
+[   537.479] rdpmouseDeviceOn:
+[   537.479] (II) Using input driver 'XRDPKEYB' for 'xrdpKeyboard'
+[   537.479] (**) Option "CoreKeyboard"
+[   537.479] (**) xrdpKeyboard: always reports core events
+[   537.479] rdpkeybPreInit: drv 0x55680be6a000 info 0x55680c10be80, flags 0x0
+[   537.479] (II) XINPUT: Adding extended input device "xrdpKeyboard" (type: Keyboard, id 7)
+[   537.479] rdpkeybControl: what 0
+[   537.479] rdpkeybDeviceInit:
+[   537.503] rdpkeybChangeKeyboardControl:
+[   537.503] rdpkeybChangeKeyboardControl: autoRepeat on
+[   537.503] rdpRegisterInputCallback: type 0 proc 0x7f5433248530
+[   537.503] rdpkeybControl: what 1
+[   537.503] rdpkeybDeviceOn:
+[   537.513] (II) config/udev: Adding input device Microsoft Vmbus HID-compliant Mouse (/dev/input/event2)
+[   537.513] (II) AutoAddDevices is off - not adding device.
+[   537.513] (II) config/udev: Adding input device Microsoft Vmbus HID-compliant Mouse (/dev/input/js0)
+[   537.513] (II) AutoAddDevices is off - not adding device.
+[   537.514] (II) config/udev: Adding input device Microsoft Vmbus HID-compliant Mouse (/dev/input/mouse0)
+[   537.514] (II) AutoAddDevices is off - not adding device.
+[   537.514] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[   537.514] (II) AutoAddDevices is off - not adding device.
+[   537.515] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[   537.515] (II) AutoAddDevices is off - not adding device.
+[   537.515] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event1)
+[   537.516] (II) AutoAddDevices is off - not adding device.
+[   537.522] rdpSaveScreen:
+[   537.522] rdpDeferredRandR:
+[   537.523] rdpResizeSession: width 1024 height 768
+[   537.523]   calling RRScreenSizeSet
+[   537.523] rdpRRScreenSetSize: width 1024 height 768 mmWidth 271 mmHeight 203
+[   537.523] rdpRRGetInfo:
+[   537.523]   screen resized to 1024x768
+[   537.524]   RRScreenSizeSet ok 1
+[   537.524] rdpResizeSession: width 1364 height 625
+[   537.524]   calling RRScreenSizeSet
+[   537.524] rdpRRScreenSetSize: width 1364 height 625 mmWidth 361 mmHeight 165
+[   537.525] rdpRRGetInfo:
+[   537.525]   screen resized to 1364x625
+[   537.526]   RRScreenSizeSet ok 1
+[   537.526] rdpClientConGotConnection:
+[   537.526] rdpClientConGotConnection: g_sck_accept ok new_sck 7
+[   537.526] rdpClientConGotConnection: adding only clientCon
+[   537.526] rdpClientConProcessMsgVersion: version 0 0 0 1
+[   537.528] rdpClientConProcessScreenSizeMsg: set width 1364 height 625 bpp 16
+[   537.529] rdpClientConProcessScreenSizeMsg: shmemid 163844 shmemptr 0x7f54330a6000
+[   537.529] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1364 cy 625
+[   537.529] rdpClientConProcessMsgClientInfo:
+[   537.529]   got client info bytes 5792
+[   537.529]   jpeg support 0
+[   537.529]   offscreen support 0
+[   537.529]   offscreen size 0
+[   537.529]   offscreen entries 0
+[   537.529]   client supports glyph cache but server disabled
+[   537.529]   client can not do offscreen to offscreen blits
+[   537.529]   client can do new(color) cursor
+[   537.529]   client can not do multimon
+[   537.529] rdpRRSetRdpOutputs: numCrtcs 0
+[   537.529] rdpRRSetRdpOutputs: numOutputs 0
+[   537.529] rdpLoadLayout: keylayout 0x00000409 variant  display 10
+[   537.529] rdpkeybChangeKeyboardControl:
+[   537.529] rdpkeybChangeKeyboardControl: autoRepeat on
+[   537.530] rdpkeybChangeKeyboardControl:
+[   537.530] rdpkeybChangeKeyboardControl: autoRepeat on
+[   537.630] rdpInDeferredUpdateCallback:
+[   537.630] rdpkeybChangeKeyboardControl:
+[   537.630] rdpkeybChangeKeyboardControl: autoRepeat off
+[   537.630] rdpkeybChangeKeyboardControl:
+[   537.630] rdpkeybChangeKeyboardControl: autoRepeat off
+[   539.353] rdpRRGetPanning: 0x55680be431d0
+[   539.599] rdpRRGetPanning: 0x55680be431d0
+[   539.664] rdpRRGetPanning: 0x55680be431d0
+[   539.674] rdpRRGetPanning: 0x55680be431d0
+[   539.675] rdpRRGetPanning: 0x55680be431d0
+[   539.704] rdpRRGetPanning: 0x55680be431d0
+[   539.738] rdpRRGetPanning: 0x55680be431d0
+[   539.757] rdpRRGetPanning: 0x55680be431d0
+[   539.801] rdpRRGetPanning: 0x55680be431d0
+[   539.825] rdpRRGetPanning: 0x55680be431d0
+[   539.834] rdpRRGetPanning: 0x55680be431d0
+[   540.121] rdpRRGetInfo:
+[   540.124] rdpRRGetPanning: 0x55680be431d0
+[   540.204] rdpRRGetInfo:
+[   540.204] rdpRRGetInfo:
+[   540.204] rdpRRGetPanning: 0x55680be431d0
+[   540.205] rdpRRGetPanning: 0x55680be431d0
+[   540.211] rdpRRGetPanning: 0x55680be431d0
+[   540.244] rdpSaveScreen:
+[   540.395] rdpkeybChangeKeyboardControl:
+[   540.395] rdpkeybChangeKeyboardControl: autoRepeat on
+[   540.395] rdpkeybChangeKeyboardControl:
+[   540.395] rdpkeybChangeKeyboardControl: autoRepeat on
+[   540.396] rdpkeybChangeKeyboardControl:
+[   540.396] rdpkeybChangeKeyboardControl: autoRepeat on
+[   540.396] rdpkeybChangeKeyboardControl:
+[   540.396] rdpkeybChangeKeyboardControl: autoRepeat on
+[   540.397] rdpkeybChangeKeyboardControl:
+[   540.397] rdpkeybChangeKeyboardControl: autoRepeat on
+[   540.397] rdpkeybChangeKeyboardControl:
+[   540.397] rdpkeybChangeKeyboardControl: autoRepeat on
+[   540.497] rdpInDeferredUpdateCallback:
+[   540.497] rdpkeybChangeKeyboardControl:
+[   540.497] rdpkeybChangeKeyboardControl: autoRepeat off
+[   540.497] rdpkeybChangeKeyboardControl:
+[   540.497] rdpkeybChangeKeyboardControl: autoRepeat off
+[   540.526] rdpRRGetInfo:
+[   540.722] rdpkeybChangeKeyboardControl:
+[   540.722] rdpkeybChangeKeyboardControl: autoRepeat off
+[   540.722] rdpkeybChangeKeyboardControl:
+[   540.722] rdpkeybChangeKeyboardControl: autoRepeat off
+[   541.220] rdpRRGetPanning: 0x55680be431d0
+[   541.230] rdpRRGetPanning: 0x55680be431d0
+[   566.459] rdpRRGetPanning: 0x55680be431d0
+[   566.515] rdpRRGetPanning: 0x55680be431d0
+[   566.590] rdpRRGetPanning: 0x55680be431d0
+[   566.608] rdpRRGetPanning: 0x55680be431d0
+[   566.677] rdpRRGetPanning: 0x55680be431d0
+[   566.680] rdpRRGetPanning: 0x55680be431d0
+[  4271.485] rdpSaveScreen:
+[  4280.116] rdpClientConSendMsg: overrun error len 33216 count 2
+[  4280.290] rdpClientConSendMsg: overrun error len 33216 count 2
+[  4280.473] rdpClientConSendMsg: overrun error len 33608 count 2
+[  4280.654] rdpClientConSendMsg: overrun error len 33736 count 2
+[  4280.830] rdpClientConSendMsg: overrun error len 33992 count 2
+[  4281.012] rdpClientConSendMsg: overrun error len 34704 count 2
+[  4281.191] rdpClientConSendMsg: overrun error len 35288 count 2
+[  4281.372] rdpClientConSendMsg: overrun error len 35360 count 2
+[  4281.564] rdpClientConSendMsg: overrun error len 35912 count 2
+[  4281.759] rdpClientConSendMsg: overrun error len 36240 count 2
+[  4281.939] rdpClientConSendMsg: overrun error len 36040 count 2
+[  4282.122] rdpClientConSendMsg: overrun error len 36632 count 2
+[  4282.310] rdpClientConSendMsg: overrun error len 36800 count 2
+[  4282.493] rdpClientConSendMsg: overrun error len 37384 count 2
+[  4282.710] rdpClientConSendMsg: overrun error len 37808 count 2
+[  4282.931] rdpClientConSendMsg: overrun error len 38328 count 2
+[  4283.130] rdpClientConSendMsg: overrun error len 38432 count 2
+[  4283.315] rdpClientConSendMsg: overrun error len 38552 count 2
+[  4283.516] rdpClientConSendMsg: overrun error len 39320 count 2
+[  4283.705] rdpClientConSendMsg: overrun error len 39568 count 2
+[  4283.885] rdpClientConSendMsg: overrun error len 39912 count 2
+[  4284.085] rdpClientConSendMsg: overrun error len 39904 count 2
+[  4284.276] rdpClientConSendMsg: overrun error len 40480 count 2
+[  4284.471] rdpClientConSendMsg: overrun error len 40984 count 2
+[  4284.667] rdpClientConSendMsg: overrun error len 41608 count 2
+[  4284.869] rdpClientConSendMsg: overrun error len 41672 count 2
+[  4285.073] rdpClientConSendMsg: overrun error len 42120 count 2
+[  4285.281] rdpClientConSendMsg: overrun error len 42592 count 2
+[  4285.523] rdpClientConSendMsg: overrun error len 42608 count 2
+[  4285.730] rdpClientConSendMsg: overrun error len 43160 count 2
+[  4285.937] rdpClientConSendMsg: overrun error len 43904 count 2
+[  4286.143] rdpClientConSendMsg: overrun error len 43768 count 2
+[  4286.356] rdpClientConSendMsg: overrun error len 44248 count 2
+[  4286.562] rdpClientConSendMsg: overrun error len 45288 count 2
+[  4286.810] rdpClientConSendMsg: overrun error len 45552 count 2
+[  4287.017] rdpClientConSendMsg: overrun error len 45016 count 2
+[  4287.217] rdpClientConSendMsg: overrun error len 45472 count 2
+[  4287.426] rdpClientConSendMsg: overrun error len 46168 count 2
+[  4287.632] rdpClientConSendMsg: overrun error len 46400 count 2
+[  4287.834] rdpClientConSendMsg: overrun error len 46600 count 2
+[  4288.037] rdpClientConSendMsg: overrun error len 47120 count 2
+[  4288.261] rdpClientConSendMsg: overrun error len 47360 count 2
+[  4288.469] rdpClientConSendMsg: overrun error len 48104 count 2
+[  4288.677] rdpClientConSendMsg: overrun error len 48288 count 2
+[  4288.884] rdpClientConSendMsg: overrun error len 48560 count 2
+[  4289.091] rdpClientConSendMsg: overrun error len 49512 count 2
+[  4289.303] rdpClientConSendMsg: overrun error len 49184 count 2
+[  4289.536] rdpClientConSendMsg: overrun error len 49944 count 2
+[  4289.761] rdpClientConSendMsg: overrun error len 49632 count 2
+[  4290.008] rdpClientConSendMsg: overrun error len 49824 count 2
+[  4290.238] rdpClientConSendMsg: overrun error len 50256 count 2
+[  4290.447] rdpClientConSendMsg: overrun error len 50856 count 2
+[  4290.656] rdpClientConSendMsg: overrun error len 50696 count 2
+[  4290.873] rdpClientConSendMsg: overrun error len 51064 count 2
+[  4291.081] rdpClientConSendMsg: overrun error len 50976 count 2
+[  4291.289] rdpClientConSendMsg: overrun error len 51184 count 2
+[  4291.500] rdpClientConSendMsg: overrun error len 51368 count 2
+[  4291.704] rdpClientConSendMsg: overrun error len 51872 count 2
+[  4291.911] rdpClientConSendMsg: overrun error len 52264 count 2
+[  4292.122] rdpClientConSendMsg: overrun error len 52104 count 2
+[  4292.346] rdpClientConSendMsg: overrun error len 52792 count 2
+[  4292.563] rdpClientConSendMsg: overrun error len 53096 count 2
+[  4292.772] rdpClientConSendMsg: overrun error len 52744 count 2
+[  4292.978] rdpClientConSendMsg: overrun error len 52664 count 2
+[  4293.191] rdpClientConSendMsg: overrun error len 53520 count 2
+[  4293.411] rdpClientConSendMsg: overrun error len 53272 count 2
+[  4293.634] rdpClientConSendMsg: overrun error len 52968 count 2
+[  4293.850] rdpClientConSendMsg: overrun error len 52712 count 2
+[  4294.058] rdpClientConSendMsg: overrun error len 52912 count 2
+[  4294.265] rdpClientConSendMsg: overrun error len 53024 count 2
+[  4294.481] rdpClientConSendMsg: overrun error len 52792 count 2
+[  4294.698] rdpClientConSendMsg: overrun error len 51904 count 2
+[  4294.912] rdpClientConSendMsg: overrun error len 51688 count 2
+[  4295.130] rdpClientConSendMsg: overrun error len 51232 count 2
+[  4295.362] rdpClientConSendMsg: overrun error len 51248 count 2
+[  4295.586] rdpClientConSendMsg: overrun error len 50384 count 2
+[  4295.800] rdpClientConSendMsg: overrun error len 49976 count 2
+[  4296.011] rdpClientConSendMsg: overrun error len 49928 count 2
+[  4296.238] rdpClientConSendMsg: overrun error len 49184 count 2
+[  4296.446] rdpClientConSendMsg: overrun error len 48544 count 2
+[  4296.670] rdpClientConSendMsg: overrun error len 47720 count 2
+[  4296.877] rdpClientConSendMsg: overrun error len 47224 count 2
+[  4297.098] rdpClientConSendMsg: overrun error len 46464 count 2
+[  4297.336] rdpClientConSendMsg: overrun error len 46264 count 2
+[  4297.591] rdpClientConSendMsg: overrun error len 45248 count 2
+[  4297.802] rdpClientConSendMsg: overrun error len 45472 count 2
+[  4298.020] rdpClientConSendMsg: overrun error len 44272 count 2
+[  4298.238] rdpClientConSendMsg: overrun error len 44416 count 2
+[  4298.456] rdpClientConSendMsg: overrun error len 44152 count 2
+[  4298.669] rdpClientConSendMsg: overrun error len 44280 count 2
+[  4298.878] rdpClientConSendMsg: overrun error len 44064 count 2
+[  4299.103] rdpClientConSendMsg: overrun error len 44280 count 2
+[  4299.324] rdpClientConSendMsg: overrun error len 44432 count 2
+[  4299.543] rdpClientConSendMsg: overrun error len 44560 count 2
+[  4299.764] rdpClientConSendMsg: overrun error len 44880 count 2
+[  4299.986] rdpClientConSendMsg: overrun error len 44928 count 2
+[  4300.211] rdpClientConSendMsg: overrun error len 45192 count 2
+[  4300.416] rdpClientConSendMsg: overrun error len 45304 count 2
+[  4300.625] rdpClientConSendMsg: overrun error len 45456 count 2
+[  4300.856] rdpClientConSendMsg: overrun error len 45128 count 2
+[  4301.085] rdpClientConSendMsg: overrun error len 45536 count 2
+[  4301.302] rdpClientConSendMsg: overrun error len 45664 count 2
+[  4301.518] rdpClientConSendMsg: overrun error len 45752 count 2
+[  4301.732] rdpClientConSendMsg: overrun error len 46352 count 2
+[  4301.953] rdpClientConSendMsg: overrun error len 46568 count 2
+[  4302.183] rdpClientConSendMsg: overrun error len 46824 count 2
+[  4302.410] rdpClientConSendMsg: overrun error len 46624 count 2
+[  4302.624] rdpClientConSendMsg: overrun error len 46936 count 2
+[  4302.844] rdpClientConSendMsg: overrun error len 47632 count 2
+[  4303.067] rdpClientConSendMsg: overrun error len 48088 count 2
+[  4303.311] rdpClientConSendMsg: overrun error len 48144 count 2
+[  4303.539] rdpClientConSendMsg: overrun error len 48232 count 2
+[  4303.744] rdpClientConSendMsg: overrun error len 48024 count 2
+[  4303.939] rdpClientConSendMsg: overrun error len 47968 count 2
+[  4304.144] rdpClientConSendMsg: overrun error len 48008 count 2
+[  4304.356] rdpClientConSendMsg: overrun error len 48360 count 2
+[  4304.547] rdpClientConSendMsg: overrun error len 48216 count 2
+[  4304.760] rdpClientConSendMsg: overrun error len 48688 count 2
+[  4304.961] rdpClientConSendMsg: overrun error len 48256 count 2
+[  4305.209] rdpClientConSendMsg: overrun error len 48064 count 2
+[  4305.408] rdpClientConSendMsg: overrun error len 48688 count 2
+[  4305.606] rdpClientConSendMsg: overrun error len 48384 count 2
+[  4305.806] rdpClientConSendMsg: overrun error len 48688 count 2
+[  4306.004] rdpClientConSendMsg: overrun error len 48336 count 2
+[  4306.215] rdpClientConSendMsg: overrun error len 48088 count 2
+[  4306.412] rdpClientConSendMsg: overrun error len 48296 count 2
+[  4306.608] rdpClientConSendMsg: overrun error len 48152 count 2
+[  4306.806] rdpClientConSendMsg: overrun error len 48176 count 2
+[  4306.995] rdpClientConSendMsg: overrun error len 48072 count 2
+[  4307.195] rdpClientConSendMsg: overrun error len 48048 count 2
+[  4307.388] rdpClientConSendMsg: overrun error len 48192 count 2
+[  4307.588] rdpClientConSendMsg: overrun error len 48608 count 2
+[  4307.799] rdpClientConSendMsg: overrun error len 48200 count 2
+[  4308.015] rdpClientConSendMsg: overrun error len 47928 count 2
+[  4308.230] rdpClientConSendMsg: overrun error len 47928 count 2
+[  4308.430] rdpClientConSendMsg: overrun error len 47872 count 2
+[  4308.624] rdpClientConSendMsg: overrun error len 47864 count 2
+[  4308.821] rdpClientConSendMsg: overrun error len 47800 count 2
+[  4309.015] rdpClientConSendMsg: overrun error len 47424 count 2
+[  4309.216] rdpClientConSendMsg: overrun error len 47824 count 2
+[  4309.404] rdpClientConSendMsg: overrun error len 46920 count 2
+[  4309.596] rdpClientConSendMsg: overrun error len 47600 count 2
+[  4309.798] rdpClientConSendMsg: overrun error len 47072 count 2
+[  4309.982] rdpClientConSendMsg: overrun error len 46544 count 2
+[  4310.170] rdpClientConSendMsg: overrun error len 46104 count 2
+[  4310.473] rdpClientConSendMsg: overrun error len 45328 count 2
+[  4310.653] rdpClientConSendMsg: overrun error len 45048 count 2
+[  4310.838] rdpClientConSendMsg: overrun error len 43416 count 2
+[  4311.019] rdpClientConSendMsg: overrun error len 43360 count 2
+[  4311.211] rdpClientConSendMsg: overrun error len 42440 count 2
+[  4311.400] rdpClientConSendMsg: overrun error len 41864 count 2
+[  4311.582] rdpClientConSendMsg: overrun error len 40896 count 2
+[  4311.776] rdpClientConSendMsg: overrun error len 39808 count 2
+[  4311.950] rdpClientConSendMsg: overrun error len 39104 count 2
+[  4312.156] rdpClientConSendMsg: overrun error len 38288 count 2
+[  4312.382] rdpClientConSendMsg: overrun error len 37720 count 2
+[  4312.590] rdpClientConSendMsg: overrun error len 36912 count 2
+[  4312.779] rdpClientConSendMsg: overrun error len 36648 count 2
+[  4312.970] rdpClientConSendMsg: overrun error len 36312 count 2
+[  4313.166] rdpClientConSendMsg: overrun error len 35928 count 2
+[  4313.357] rdpClientConSendMsg: overrun error len 35776 count 2
+[  4313.547] rdpClientConSendMsg: overrun error len 36016 count 2
+[  4313.756] rdpClientConSendMsg: overrun error len 36144 count 2
+[  4313.952] rdpClientConSendMsg: overrun error len 36072 count 2
+[  4314.144] rdpClientConSendMsg: overrun error len 36608 count 2
+[  4314.343] rdpClientConSendMsg: overrun error len 36992 count 2
+[  4314.535] rdpClientConSendMsg: overrun error len 37400 count 2
+[  4314.726] rdpClientConSendMsg: overrun error len 38512 count 2
+[  4314.918] rdpClientConSendMsg: overrun error len 39152 count 2
+[  4315.121] rdpClientConSendMsg: overrun error len 39544 count 2
+[  4315.357] rdpClientConSendMsg: overrun error len 40208 count 2
+[  4315.552] rdpClientConSendMsg: overrun error len 41296 count 2
+[  4315.751] rdpClientConSendMsg: overrun error len 41896 count 2
+[  4315.947] rdpClientConSendMsg: overrun error len 42456 count 2
+[  4316.147] rdpClientConSendMsg: overrun error len 43856 count 2
+[  4316.354] rdpClientConSendMsg: overrun error len 44304 count 2
+[  4316.572] rdpClientConSendMsg: overrun error len 45296 count 2
+[  4316.778] rdpClientConSendMsg: overrun error len 46616 count 2
+[  4316.992] rdpClientConSendMsg: overrun error len 47048 count 2
+[  4317.204] rdpClientConSendMsg: overrun error len 47416 count 2
+[  4317.425] rdpClientConSendMsg: overrun error len 47912 count 2
+[  4317.630] rdpClientConSendMsg: overrun error len 48304 count 2
+[  4317.843] rdpClientConSendMsg: overrun error len 48736 count 2
+[  4318.047] rdpClientConSendMsg: overrun error len 49136 count 2
+[  4318.334] rdpClientConSendMsg: overrun error len 49496 count 2
+[  4318.706] rdpClientConSendMsg: overrun error len 49688 count 2
+[  4318.980] rdpClientConSendMsg: overrun error len 50592 count 2
+[  4319.192] rdpClientConSendMsg: overrun error len 50280 count 2
+[  4319.402] rdpClientConSendMsg: overrun error len 50280 count 2
+[  4319.624] rdpClientConSendMsg: overrun error len 50240 count 2
+[  4319.858] rdpClientConSendMsg: overrun error len 50800 count 2
+[  4320.083] rdpClientConSendMsg: overrun error len 51128 count 2
+[  4320.320] rdpClientConSendMsg: overrun error len 50760 count 2
+[  4320.538] rdpClientConSendMsg: overrun error len 50672 count 2
+[  4320.759] rdpClientConSendMsg: overrun error len 50888 count 2
+[  4320.990] rdpClientConSendMsg: overrun error len 50840 count 2
+[  4321.221] rdpClientConSendMsg: overrun error len 51064 count 2
+[  4321.433] rdpClientConSendMsg: overrun error len 50720 count 2
+[  4321.635] rdpClientConSendMsg: overrun error len 50616 count 2
+[  4321.845] rdpClientConSendMsg: overrun error len 50472 count 2
+[  4322.070] rdpClientConSendMsg: overrun error len 50824 count 2
+[  4322.292] rdpClientConSendMsg: overrun error len 50888 count 2
+[  4322.506] rdpClientConSendMsg: overrun error len 50312 count 2
+[  4322.716] rdpClientConSendMsg: overrun error len 50552 count 2
+[  4322.944] rdpClientConSendMsg: overrun error len 50176 count 2
+[  4323.162] rdpClientConSendMsg: overrun error len 50904 count 2
+[  4323.407] rdpClientConSendMsg: overrun error len 50448 count 2
+[  4323.652] rdpClientConSendMsg: overrun error len 50432 count 2
+[  4323.917] rdpClientConSendMsg: overrun error len 49912 count 2
+[  4324.140] rdpClientConSendMsg: overrun error len 50552 count 2
+[  4324.359] rdpClientConSendMsg: overrun error len 50648 count 2
+[  4324.576] rdpClientConSendMsg: overrun error len 50752 count 2
+[  4324.788] rdpClientConSendMsg: overrun error len 51064 count 2
+[  4325.015] rdpClientConSendMsg: overrun error len 51544 count 2
+[  4325.246] rdpClientConSendMsg: overrun error len 51248 count 2
+[  4325.467] rdpClientConSendMsg: overrun error len 51712 count 2
+[  4325.678] rdpClientConSendMsg: overrun error len 51512 count 2
+[  4325.894] rdpClientConSendMsg: overrun error len 51664 count 2
+[  4326.108] rdpClientConSendMsg: overrun error len 51272 count 2
+[  4326.328] rdpClientConSendMsg: overrun error len 51528 count 2
+[  4326.534] rdpClientConSendMsg: overrun error len 51744 count 2
+[  4326.740] rdpClientConSendMsg: overrun error len 51944 count 2
+[  4326.952] rdpClientConSendMsg: overrun error len 51936 count 2
+[  4327.161] rdpClientConSendMsg: overrun error len 53152 count 2
+[  4327.384] rdpClientConSendMsg: overrun error len 52560 count 2
+[  4327.610] rdpClientConSendMsg: overrun error len 53320 count 2
+[  4327.823] rdpClientConSendMsg: overrun error len 54208 count 2
+[  4328.060] rdpClientConSendMsg: overrun error len 54656 count 2
+[  4328.284] rdpClientConSendMsg: overrun error len 55632 count 2
+[  4328.506] rdpClientConSendMsg: overrun error len 56224 count 2
+[  4328.734] rdpClientConSendMsg: overrun error len 56872 count 2
+[  4328.952] rdpClientConSendMsg: overrun error len 57792 count 2
+[  4329.168] rdpClientConSendMsg: overrun error len 58640 count 2
+[  4329.387] rdpClientConSendMsg: overrun error len 59504 count 2
+[  4329.614] rdpClientConSendMsg: overrun error len 60280 count 2
+[  4329.848] rdpClientConSendMsg: overrun error len 61368 count 2
+[  4330.077] rdpClientConSendMsg: overrun error len 62032 count 2
+[  4330.306] rdpClientConSendMsg: overrun error len 62752 count 2
+[  4330.530] rdpClientConSendMsg: overrun error len 63456 count 2
+[  4330.751] rdpClientConSendMsg: overrun error len 63872 count 2
+[  4330.979] rdpClientConSendMsg: overrun error len 64136 count 2
+[  4331.209] rdpClientConSendMsg: overrun error len 64912 count 2
+[  4331.445] rdpClientConSendMsg: overrun error len 66392 count 2
+[  4331.751] rdpClientConRecv: g_sck_recv failed(returned 0)
+[  4331.751] rdpClientConDisconnect:
+[  4331.751] rdpClientConDisconnect: clientCon removed from dev list

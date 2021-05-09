@@ -157,3 +157,218 @@ cat Readme.txt
 git revert commit 89fa79d32f14e1f61fe03850be32bd984a5c91ce
 git revert 89fa79d32f14e1f61fe03850be32bd984a5c91ce
 cat Readme.txt
+git initi
+git init
+git status
+git branch -l
+git branch develop
+git branch -l
+git checkout develop
+git branch -l
+echo "Add Develop Branch" >> Readme.txt
+cat Readme.txt
+git add .
+git commit -m "Develop Branch Commit"
+git log
+git branch -l
+git checkout master
+git log
+git merge develop
+cat Readme.txt
+git log --oneline
+git branch -l
+git log
+git revert 72acede2f385640432d4e05e234ff71a89263dd8
+cat Readme.txt
+git status
+git rm Readme.txt
+git status
+git git status
+git status
+git revert --continue
+ls -lart
+cd gitrepo
+ls -lart
+git repo
+ls --lart
+ls -lart
+git remote -v
+gitrepo
+git remote -v
+git remote add origin git@github.com:kanlawr2005/samplerepo.git
+git push origin master
+git remote -v
+git remote add origin
+git push origin master
+git log
+git create dev master
+git create branch dev
+sudo su -
+sudo -i
+cat /var/lib/jenkins/secrets/initialAdminPassword
+#cat /var/lib/jenkins/secrets/initialAdminPassword
+echo "deb https://pkg.jenkins.io/debian-stable b^C
+# cat /var/lib/jenkins/secrets/initialAdminPassword
+ls -lart /var/lib/jenkins
+clear
+mkdir demoapp
+d demoapp/
+mkdir demoapp
+cd demoapp/&
+cd demoapp/
+pwd
+git init
+git config --user.name"I am Deopsstudent"
+git config --gloal user.name "kanlawr_2005"
+git config --gloal user.email "kanlawr_2005@yahoo.co.in"
+git config --global.email"kanlawr_2005@yahoo.co.in"
+clear
+git status
+vi robert1.txt
+git status
+git add robert1.txt
+git status
+git commit -m "Committing my first file robert1.txt"
+git status
+git log
+date
+git show
+vi robert1.txt
+git status
+clear
+git log
+git show 868fd1d1f99d8
+vi robert1.txt
+git add .
+git status
+git log
+git show 868fd1d1f9
+git ls-files
+touh robert2.txt
+touch robert2.txt
+ls -lart
+ls -lrt
+git status
+git ls-files
+git add robert2.txt
+git ommit -m "Committing my second File robert2.txt"
+git commit -m "Committing my seond File robert2.txt"
+git status
+git log
+git status
+git add .
+git add robert2.txt
+git commit -m "Committing my second File robert2.txt"
+ls -lart
+git status
+git log
+git remote add origin https://github.com/kanlawr2005/Githeimat.git
+git remote -
+git remote -v
+git push origin https://github.com/kanlawr2005/Githeimat.git
+git push origin master https://github.com/kanlawr2005/Githeimat.git
+git push origin master git@github.com:kanlawr2005/Githeimat.git
+git push origin master git@github.com:kanlawr2005/lab2.1.git
+git push origin master
+git push origin master git@github.com:kanlawr2005/lab2.1.git
+git remote -v
+git log
+git status
+git ls-files
+touh robert2.txt
+touch robert2.txt
+git status
+git log
+git ls-files
+git remote add origin https://github.com/kanlawr2005/lab2.1.git
+remote -v
+git push origin master https://github.com/kanlawr2005/lab2.1.git
+git push origin master git@github.com:kanlawr2005/lab2.1.git
+git push origin master https://github.com/kanlawr2005/pratice_Git.git
+git push origin master git@github.com:kanlawr2005/pratice_Git.git
+git push origin master
+kanlawr_2005
+git push origin master
+git ls-files
+git log
+git --version
+sudo apt update
+sudo apt install git
+git --version
+mkdir demoapp
+lear
+clear
+mkdir demoapp
+git push origin master
+git status
+git ls-files
+git remote add origin git@github.com:kanlawr2005/demoapp.git
+git remote -v
+git push origin master
+git remote add origin https://github.com/kanlawr2005/demoapp.git
+git push -u origin main
+clear
+mkdir demoapp1
+cd demoapp1
+cd demoap1/
+mkdir demoapp
+cd demoapp1/
+mkdir demoapp1
+cd demoapp1/
+git init
+clear
+git config --global user.name "iamdevopsstudent"
+git config --global user.email "kanlawr_2005@yahoo.co.in"
+git status
+vi lawrence1.txt
+git status
+git add lawrence1.txt
+git status
+git commit -m "Committing my first file lawrence1.txt"
+git status
+git log
+date
+git show cfaf69f966e1
+vi lawrence1.txt
+git status
+git add.
+git add .
+git status
+git commit -m"Updated file lawrence1.txt!
+lear
+clear
+git ls-files
+git commit -m "Updated file lawrence1.txt"
+git log
+git show 3c11c39f3f3
+touch lawrence2.txt
+ls -laart
+git status
+git ls-files
+git add lawrence2.txt
+git committ -m "Committing my second file lawrence2.txt"
+yes
+git commit -m "Committing my second file lawrence2.txt"
+git status
+git log
+git remote add origin https://github.com/kanlawr2005/demoapp1.git
+remote -
+git remote -
+git remote -v
+git push origin master
+git branch 
+git statu
+git status
+git branch
+git status
+clear
+git branch
+git status
+git branch Robert
+git branch
+git checkout Robert
+clear
+git branch
+git status
+git branch
+git log
