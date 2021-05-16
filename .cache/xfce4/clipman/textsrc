@@ -1,2 +1,2 @@
 [texts]
-texts=git commit -m "Add existing file";gh repo clone kanlawr2005/lab2.1;git@github.com:kanlawr2005/lab2.1.git;https://github.com/kanlawr2005/lab2.1;git add .;
+texts=git commit . -m “I am pushing all the files to my Bitbucket”;git@github.com:kanlawr2005/Lesson--02--GitFiles.git;git config --global user.name “Simplilearn;git config --global user.name "John Doe";git@github.com:kanlawr2005/Lesson-02.git;git remote add origin;git remote add origin https://github.com/kanlawr2005/Lesson--02--GitFiles.git;kanlawr2005/lab2.1;Lesson--02--GitFiles;https://github.com/kanlawr2005/Lesson--02--GitFiles.git;

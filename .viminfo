@@ -7,6 +7,9 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq
 :WQ
@@ -16,6 +19,7 @@
 ::wq
 
 # Search String History (newest to oldest):
+? @$
 
 # Expression History (newest to oldest):
 
@@ -24,29 +28,40 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+""0	CHAR	0
+	t
+"-	CHAR	0
 	t
 
 # File marks:
 '0  1  0  ~/Lesson-02/typo.ts
 '1  1  0  ~/Lesson-02/Texts.txt
 '2  1  0  ~/Lesson-02/Styles.css
-'3  1  0  ~/Lesson-02/index.js
-'4  1  0  ~/Lesson-02/index.html
-'5  1  15  ~/Lesson-02/HelloJava.java
-'6  1  0  ~/Lesson-02/C_Program.c
-'7  1  20  ~/lawrence3.txt
-'8  1  14  ~/lawrence2.txt
-'9  1  11  ~/lawrence1.txt
+'3  5  0  ~/Lesson-02/index.js
+'4  11  0  ~/Lesson-02/index.html
+'5  9  0  ~/Lesson-02/HelloJava.java
+'6  11  0  ~/Lesson-02/C_Program.c
+'7  1  0  ~/Lesson-02/C_program.c
+'8  422  43  /etc/ansible/ansible.cfg
+'9  1  0  /etc/ansible/ansible.cfg
 
 # Jumplist (newest first):
 -'  1  0  ~/Lesson-02/typo.ts
 -'  1  0  ~/Lesson-02/Texts.txt
 -'  1  0  ~/Lesson-02/Styles.css
+-'  5  0  ~/Lesson-02/index.js
 -'  1  0  ~/Lesson-02/index.js
+-'  11  0  ~/Lesson-02/index.html
 -'  1  0  ~/Lesson-02/index.html
--'  1  15  ~/Lesson-02/HelloJava.java
+-'  9  0  ~/Lesson-02/HelloJava.java
+-'  1  0  ~/Lesson-02/HelloJava.java
+-'  11  0  ~/Lesson-02/C_Program.c
 -'  1  0  ~/Lesson-02/C_Program.c
+-'  1  0  ~/Lesson-02/C_program.c
+-'  422  43  /etc/ansible/ansible.cfg
+-'  1  0  /etc/ansible/ansible.cfg
+-'  8  0  /etc/ansible
+-'  1  0  /etc/ansible
 -'  1  20  ~/lawrence3.txt
 -'  1  14  ~/lawrence2.txt
 -'  1  11  ~/lawrence1.txt
@@ -128,16 +143,6 @@
 -'  1  0  ~/lab/javaprog.java
 -'  7  0  ~/lab/index.html
 -'  1  0  ~/lab/index.html
--'  7  0  ~/lab/javaprog.java
--'  1  0  ~/lab/javaprog.java
--'  7  0  ~/lab/javaprog.java
--'  1  0  ~/lab/javaprog.java
--'  12  0  ~/lab2.1/javaprog.java
--'  1  0  ~/lab2.1/javaprog.java
--'  7  0  ~/lab/index.html
--'  1  0  ~/lab/index.html
--'  7  0  ~/lab/javaprog.java
--'  1  0  ~/lab/javaprog.java
 
 # History of marks within files (newest to oldest):
 
@@ -151,18 +156,52 @@
 	"	1	0
 
 > ~/Lesson-02/index.js
-	"	1	0
-	^	1	0
+	"	5	0
+	^	5	0
+	.	4	0
+	+	4	0
 
 > ~/Lesson-02/index.html
-	"	1	0
+	"	11	0
+	^	11	0
+	.	10	0
+	+	1	28
+	+	10	0
 
 > ~/Lesson-02/HelloJava.java
-	"	1	15
-	^	1	16
+	"	9	0
+	^	9	0
+	.	8	0
+	+	8	0
 
 > ~/Lesson-02/C_Program.c
+	"	11	0
+	^	11	0
+	.	10	0
+	+	10	0
+
+> ~/Lesson-02/C_program.c
 	"	1	0
+
+> /etc/ansible/ansible.cfg
+	"	422	43
+	.	422	43
+	+	423	0
+	+	422	377
+	+	422	376
+	+	422	43
+
+> etc/ansible/ansible.cfg
+	"	22	0
+	^	22	0
+	.	22	0
+	+	22	0
+
+> ~/ansible
+	"	1	9
+	^	8	10
+	.	8	10
+	+	8	10
 
 > ~/lawrence3.txt
 	"	1	20

@@ -542,3 +542,120 @@ git push -u origin main
 git commit -m "Add existing file"
 git status
 git log
+gh repo clone kanlawr2005/lab2.1
+git clone git@github.com:kanlawr2005/lab2.1.git
+git status
+git init
+git status
+git add .
+ls -lart
+git init
+git add .
+git commit . -m “I am pushing all the files to my Bitbucket”
+git commit -m "I am pushing the files to my Bitbucket"
+git status
+cd ~/.ssh
+ssh key-gen -t rsa -C <kanlawr_2005@yahoo.co.in>
+key-gen -t rsa -C <kanlawr_2005@yahoo.co.in>
+cat id_rsa.pub
+ssh-add  
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git clone git@bitbucket.org:<https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+>git clone git@bitbucket.org:<https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git clone git@bitbucket.org:<https://github.com/kanlawr2005/Lesson-02.git>.git
+git clone git@bitbucket.org:<git@github.com:kanlawr2005/Lesson-02.git>.git
+git clone git@bitbucket.org:<git@github.com:kanlawr2005/Lesson-02.git>
+git clone git 
+clear
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git clone git@bitbucket.org:Seagull812/lesson-02-gitfiles.git
+git commit . -m “I am pushing all the files to my Github”
+git add .
+git push origin master
+sudo su
+vi /etc/ansible/
+vi /etc/ansible/ansible.cfg
+10.20.30.40
+vi /etc/ansible/ansible.cfg
+vi
+vi /etc/ansible/ansible.cfg
+vi ansible
+ansible -m png tomcat_servers
+ansible -m ping tomcat_servers
+sudo su
+sudo su -
+ssh-keygetn -t rsa
+ssh-keygen -t rsa
+T /ROOT^C
+cat /root/ .ssh/id_rsa.pub
+mkdir Lesson-02
+cd Lesson-02
+touch index.html Texts.txt C_Program.c HelloJava.java index.js styles.css typo.ts
+ls -l
+mkdir Lesson-02
+mkdir Lesson-02
+cd Lesson-02
+touch index.html Texts.txt C_Program.c HelloJava.java index.js styles.css typo.ts
+ls -l
+touch index.html Texts.txt C_Program.c HelloJava.java index.js styles.css typo.ts
+cd Lesson-02
+git config --global user.name “kanlawr2005"
+git config --global user.name “Simplilearn"
+git config --global user.name "kanlawr2005"
+git config --global user.email "kanlawr_2005@yahoo.co.in"
+git config --global user.name "kanlawr_2005"
+git config --global user.name "kanlawr2005"
+git config --global user.email "kanlawr_2005@yahoo.co.in"
+git log
+mkdir Lesson-02
+cd Lesson-02
+touch index.html Texts.txt C_Program.c HelloJava.java index.js styles.css typo.ts
+ls -l
+vi C_Program.c 
+vi HelloJava.java 
+vi index.html
+vi index.js 
+vi Styles.css
+vi Texts.txt
+vi typo.ts
+git init
+git add .
+git status
+git remote origin git@github.com:kanlawr2005/Lesson--02--GitFiles.git
+git remote add origin git@github.com:kanlawr2005/Lesson--02--GitFiles.git
+git -v
+git remote -v
+git add .
+git commit . -m “I am pushing all the files to my Bitbucket”
+git commit -m “I am pushing all the files to my Bitbucket”
+git commit -m "First commit"
+git push origin master
+git push oring master
+git status
+git push origin master
+mkdir Lesson--02--GitFiles
+git push origin master
+git remote add origin git@github.com:kanlawr2005/Lesson--02--GitFiles.git
+git init
+git remote add origin https://github.com/kanlawr2005/Lesson--02--GitFiles.git
+git push origin master
+git remote -v
+git add .
+git commit -m "first commit"
+git status
+git push origin master
+git commit -m "first commit"
+git push origin master
+git clone https://github.com/kanlawr2005/Lesson--02--GitFiles.git
+git config --global user.name “kanlawr2005"
+
+
+
+git status
+git commit -m "first commit"
+git push remote origin master
+git push -u origin master
+git push remote add origin git@github.com:kanlawr2005/Lesson-02.git
+git push origin master
+git remote -v
+git push origin master
