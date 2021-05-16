@@ -1,0 +1,2 @@
+[texts]
+texts=git commit -m "Add existing file";gh repo clone kanlawr2005/lab2.1;git@github.com:kanlawr2005/lab2.1.git;https://github.com/kanlawr2005/lab2.1;git add .;

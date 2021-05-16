@@ -528,3 +528,17 @@ git commit -m "Add existing file"
 git status
 ls -l
 git add .
+git init
+git status
+git git status
+git add.
+git add .
+git init
+ls lart
+ls -lart
+git remote add origin git@github.com:kanlawr2005/lesson-02.git
+git branch -m main
+git push -u origin main
+git commit -m "Add existing file"
+git status
+git log

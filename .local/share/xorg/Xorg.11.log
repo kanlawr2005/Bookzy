@@ -389,3 +389,98 @@ Release Date: 2017-03-02
 [  4784.507] rdpDeferredUpdateCallback: reschedule rect_id 38 rect_id_ack 37
 [  4784.774] rdpDeferredUpdateCallback: reschedule rect_id 42 rect_id_ack 41
 [  4785.216] rdpSaveScreen:
+[  5226.046] rdpkeybChangeKeyboardControl:
+[  5226.047] rdpkeybChangeKeyboardControl: autoRepeat on
+[  5226.047] rdpkeybChangeKeyboardControl:
+[  5226.047] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5226.147] rdpInDeferredUpdateCallback:
+[  5226.147] rdpkeybChangeKeyboardControl:
+[  5226.147] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5226.147] rdpkeybChangeKeyboardControl:
+[  5226.147] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5231.872] rdpkeybChangeKeyboardControl:
+[  5231.873] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5231.873] rdpkeybChangeKeyboardControl:
+[  5231.873] rdpkeybChangeKeyboardControl: autoRepeat off
+[  5459.017] rdpClientConGotConnection:
+[  5459.017] rdpClientConGotConnection: g_sck_accept ok new_sck 28
+[  5459.017] rdpClientConGotConnection: disconnecting only clientCon
+[  5459.017] rdpClientConDisconnect:
+[  5459.017] rdpClientConDisconnect: clientCon removed from dev list
+[  5459.017] rdpClientConGotConnection: adding only clientCon
+[  5459.656] rdpClientConProcessMsgVersion: version 0 0 0 1
+[  5459.660] rdpClientConProcessScreenSizeMsg: set width 1280 height 610 bpp 16
+[  5459.660] rdpClientConProcessScreenSizeMsg: shmemid 2293775 shmemptr 0x7f9bed22c000
+[  5459.660] rdpRRScreenSetSize: width 1280 height 610 mmWidth 339 mmHeight 161
+[  5459.662] rdpRRGetInfo:
+[  5459.662]   screen resized to 1280x610
+[  5459.669] rdpClientConProcessScreenSizeMsg: RRScreenSizeSet ok=[1]
+[  5459.669] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.670] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1280 cy 610
+[  5459.670] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.673] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.674] rdpClientConProcessMsgClientInfo:
+[  5459.674]   got client info bytes 5792
+[  5459.674]   jpeg support 0
+[  5459.674]   offscreen support 0
+[  5459.674]   offscreen size 0
+[  5459.674]   offscreen entries 0
+[  5459.674]   client supports glyph cache but server disabled
+[  5459.674]   client can not do offscreen to offscreen blits
+[  5459.674]   client can do new(color) cursor
+[  5459.674]   client can not do multimon
+[  5459.674] rdpRRSetRdpOutputs: numCrtcs 1
+[  5459.674] rdpRRSetRdpOutputs: numOutputs 1
+[  5459.675] rdpLoadLayout: keylayout 0x00000409 variant  display 11
+[  5459.675] rdpkeybChangeKeyboardControl:
+[  5459.675] rdpkeybChangeKeyboardControl: autoRepeat on
+[  5459.677] rdpkeybChangeKeyboardControl:
+[  5459.677] rdpkeybChangeKeyboardControl: autoRepeat on
+[  5459.679] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.679] rdpRRGetInfo:
+[  5459.679] rdpRRGetInfo:
+[  5459.680] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.680] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.683] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.684] rdpRRGetInfo:
+[  5459.684] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.684] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.684] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.684] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.685] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.686] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.687] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.689] rdpRRGetPanning: 0x55ec0dd077f0
+[  5459.689] (EE) 
+[  5459.689] (EE) Backtrace:
+[  5459.689] (EE) 0: /usr/lib/xorg/Xorg (xorg_backtrace+0x4a) [0x55ec0b81f66a]
+[  5459.689] (EE) 1: /usr/lib/xorg/Xorg (0x55ec0b666000+0x1bd3f9) [0x55ec0b8233f9]
+[  5459.689] (EE) 2: /lib/x86_64-linux-gnu/libpthread.so.0 (0x7f9bfa85d000+0x11390) [0x7f9bfa86e390]
+[  5459.689] (EE) 3: /usr/lib/xorg/Xorg (WriteToClient+0xc1) [0x55ec0b822be1]
+[  5459.689] (EE) 4: /usr/lib/xorg/Xorg (WriteEventsToClient+0x252) [0x55ec0b6c5bb2]
+[  5459.689] (EE) 5: /usr/lib/xorg/Xorg (TryClientEvents+0x120) [0x55ec0b6c5d50]
+[  5459.689] (EE) 6: /usr/lib/xorg/Xorg (0x55ec0b666000+0x634ba) [0x55ec0b6c94ba]
+[  5459.689] (EE) 7: /usr/lib/xorg/Xorg (DeliverEventsToWindow+0x1d7) [0x55ec0b6c97a7]
+[  5459.689] (EE) 8: /usr/lib/xorg/Xorg (DeliverEvents+0xf9) [0x55ec0b6c9f09]
+[  5459.689] (EE) 9: /usr/lib/xorg/Xorg (ConfigureWindow+0x561) [0x55ec0b6e9ca1]
+[  5459.689] (EE) 10: /usr/lib/xorg/Xorg (0x55ec0b666000+0x4ea76) [0x55ec0b6b4a76]
+[  5459.689] (EE) 11: /usr/lib/xorg/Xorg (0x55ec0b666000+0x54725) [0x55ec0b6ba725]
+[  5459.689] (EE) 12: /usr/lib/xorg/Xorg (0x55ec0b666000+0x586a8) [0x55ec0b6be6a8]
+[  5459.689] (EE) 13: /lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main+0xf0) [0x7f9bfa4b3830]
+[  5459.689] (EE) 14: /usr/lib/xorg/Xorg (_start+0x2a) [0x55ec0b6a833a]
+[  5459.689] (EE) 
+[  5459.689] (EE) Segmentation fault at address 0x0
+[  5459.689] (EE) 
+Fatal server error:
+[  5459.690] (EE) Caught signal 11 (Segmentation fault). Server aborting
+[  5459.690] (EE) 
+[  5459.690] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[  5459.690] (EE) Please also check the log file at "/home/kanlawr2005yaho/.local/share/xorg/Xorg.11.log" for additional information.
+[  5459.690] (EE) 
+[  5459.690] rdpmouseControl: what 4
+[  5459.690] rdpkeybControl: what 4
+[  5459.690] rdpLeaveVT:
+[  5459.691] (EE) Server terminated with error (1). Closing log file.
