@@ -435,3 +435,32 @@ vi lawrence2.txt
 git add .
 git commit -m "Updating lawrence1.txt in rebase branch"
 git log
+git log --oneline
+git log --oneline master
+git checkout master
+git checkout Robert
+vi lawrence3.txt
+git add .
+git commit -m "Adding lawrence3.txt in master"
+git log --oneline rebasebranch
+git branch
+git rebase master
+git checkout rebasebranch
+git log  --oneline
+git stash
+cat /etc/redhat-release
+yum install -y java-1.8.0 openjdk
+yum install -y java-1.8.0-openjdk
+sudo apt install yum
+sudo rp -import https://pkg.jenkins.io/redhat-stable/jenkins.io.key/
+sudo rpm -import https://pkg.jenkins.io/redhat-stable/jenkins.io.key/
+yum install -y jenkins
+service jenkins start
+jenkins
+git init
+git push origin master https://github.com/kanlawr2005/githeimat.git
+git status
+git commit -m
+mvn clean
+mvn clean install
+mvn clean test

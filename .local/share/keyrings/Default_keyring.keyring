@@ -1,0 +1,23 @@
+[keyring]
+display-name=Default keyring
+ctime=1620897980
+mtime=0
+lock-on-idle=false
+lock-after=false
+
+[1]
+item-type=0
+display-name=Chrome Safe Storage
+secret=fVxua1Js/WdTPdaot/DoRg==
+mtime=1620897980
+ctime=1620897980
+
+[1:attribute0]
+name=application
+type=string
+value=chrome
+
+[1:attribute1]
+name=xdg:schema
+type=string
+value=chrome_libsecret_os_crypt_password_v2

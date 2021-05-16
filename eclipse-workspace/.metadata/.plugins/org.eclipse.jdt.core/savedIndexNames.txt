@@ -1,0 +1,6 @@
+INDEX VERSION 1.130+/home/kanlawr2005yaho/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+1222618034.index
+1600040409.index
+3703194086.index
+3422984410.index
+2112601313.index

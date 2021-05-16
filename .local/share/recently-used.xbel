@@ -27,4 +27,84 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/kanlawr2005yaho/lab2.1" added="2021-05-16T06:11:19Z" modified="2021-05-16T06:11:19Z" visited="2021-05-16T06:11:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2021-05-16T06:11:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kanlawr2005yaho/gitrepo" added="2021-05-16T06:11:41Z" modified="2021-05-16T06:11:41Z" visited="2021-05-16T06:11:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2021-05-16T06:11:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kanlawr2005yaho/Lesson-02" added="2021-05-16T06:12:04Z" modified="2021-05-16T06:12:04Z" visited="2021-05-16T06:12:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2021-05-16T06:12:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kanlawr2005yaho/git/Lesson-02" added="2021-05-16T06:15:48Z" modified="2021-05-16T06:21:27Z" visited="2021-05-16T06:15:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2021-05-16T06:21:27Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kanlawr2005yaho/gittraining" added="2021-05-16T06:16:40Z" modified="2021-05-16T06:16:40Z" visited="2021-05-16T06:16:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2021-05-16T06:16:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kanlawr2005yaho/git/gittraining/Lesson-02" added="2021-05-16T06:19:18Z" modified="2021-05-16T06:19:18Z" visited="2021-05-16T06:19:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2021-05-16T06:19:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kanlawr2005yaho/git/gittraining" added="2021-05-16T06:19:56Z" modified="2021-05-16T06:19:56Z" visited="2021-05-16T06:19:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2021-05-16T06:19:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kanlawr2005yaho/git/gitrepo/gitrepo" added="2021-05-16T06:20:17Z" modified="2021-05-16T06:20:17Z" visited="2021-05-16T06:20:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2021-05-16T06:20:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

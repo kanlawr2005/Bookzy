@@ -1,2 +1,2 @@
 [texts]
-texts=https://github.com/kanlawr2005/pratice_Git.git;git@github.com:kanlawr2005/pratice_Git.git;git@github.com:kanlawr2005/demoapp.git;https://github.com/kanlawr2005/demoapp.git;git remote add origin https://github.com/kanlawr2005/demoapp.git;git push -u origin main;cfaf69f966e1;3c11c39f3f3;89fa79d32f;https://github.com/kanlawr2005/demoapp1.git;
+texts=git clone git@bitbucket.org:kanlawr2005/Lesson-02-gitfiles;https://bitbucket.org/Seagull812/lesson-02-gitfiles/src/master/;git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git;
