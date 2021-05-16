@@ -659,3 +659,29 @@ git push remote add origin git@github.com:kanlawr2005/Lesson-02.git
 git push origin master
 git remote -v
 git push origin master
+git add remote origin https://github.com/kanlawr2005/Lesson--02--GitFiles.git
+git remote add origin https://github.com/kanlawr2005/Lesson--02--GitFiles.git
+git add .
+git push origin master
+git remote -v
+git push origin master
+kanlawr2005
+git push orgin master
+git add .
+git remote -v
+git remote origin master https://github.com/kanlawr2005/Lesson--02--GitFiles.git
+git init
+git add .
+git commit . -m “I am pushing all the files to my Bitbucket”
+git commit -m "I am pushing all the files to my Bitbucket"
+git status
+git push origin master
+git remote add origin https://github.com/kanlawr/Lesson--02--GitFiles.git
+git push -u origin main
+git init
+git remote -v
+git commit -m "Add existing file"
+git branch -M main
+git push origin https://github.com/kanlawr/Lesson--02--GitFiles.git
+git remote add origin https://github.com/kanlawr/Lesson--02--GitFiles.git
+git push -u origin main
