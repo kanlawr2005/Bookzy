@@ -464,3 +464,67 @@ git commit -m
 mvn clean
 mvn clean install
 mvn clean test
+ssh-add
+git clone git@bitbucket.org:kanlawr2005/Lesson-02-gitfiles
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git init
+git add .
+git commit . -m "I am pushing all the files to my Github"
+git status
+git push origin master
+kanlawr2005
+git push origin master
+clear
+mkdir Lesson-02
+cd Lesson-02
+touch index.html Texts.txt C_Program.c HelloJava.java index.js styles.css typo.ts
+ls --lart
+ls -lart
+vi C_Program.c 
+vi HelloJava.java 
+vi index.html 
+vi index.js 
+vi Styles.css
+vi Texts.txt
+vi typo.ts
+git init
+git add .
+git commit . -m “I am pushing all the files to my Bitbucket”
+git add .
+git commit . -m “I am pushing all the files to my Bitbucket”
+git commit -m “I am pushing all the files to my Bitbucket”
+git commit -m "I am pushing all the files to my Bitbucket"
+git status
+git ls -lart
+git log
+ls -lart
+git add .
+git commit -m "I am pushing all the files to my Bitbucket"
+git init
+git add .
+git commit -m "I am pushing all the files to my Bitbucket"
+git status
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:kanlawr2005/Lesson-02.git
+git push -u origin main
+git remote add origin git@github.com:kanlawr2005/Lesson-02.git
+git push -u origin main
+git status
+ls -lart
+git add .
+git remote clone origin git@github.com:kanlawr2005/Lesson-02.git
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git status
+ls -lart
+git add .
+git status
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git remote add origin git@github.com:kanlawr2005/Lesson-02.git
+git branch -M main
+git push -u origin main
+git commit -m "Add existing file"
+git status
+ls -l
+git add .
