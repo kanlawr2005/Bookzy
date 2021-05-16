@@ -685,3 +685,26 @@ git branch -M main
 git push origin https://github.com/kanlawr/Lesson--02--GitFiles.git
 git remote add origin https://github.com/kanlawr/Lesson--02--GitFiles.git
 git push -u origin main
+git init
+git add .
+git remote add origin https://github.com/kanlawr/Lesson--02--GitFiles.git
+git add C_Program.c
+git add vi HelloJava.java 
+git add  HelloJava.java 
+git remote add origin https://github.com/kanlawr/Lesson--02--GitFiles.git
+git remote set-url origin git@github.com:ppreyer/first_app.git
+git remote add origin https://github.com/kanlawr/Lesson--02--GitFiles.git
+git remote add https://github.com/kanlawr/Lesson--02--GitFiles.git
+git remote -v
+git remote set-url origin git@github.com:anlawr2005/Lesson--02--GitFiles.git
+git init
+git status
+git commit . -m “I am pushing all the files to my Bitbucket”
+git commit -m "I am pushing all the files to my Bitbucket"
+git status
+ssh key-gen -t rsa -C <kanlawr_2005@yahoo.co.in>
+ssh key-gen -t rsa
+cd ~/.ssh
+ssh key-gen -t rsa -C <kanlawr_2005@yahoo.co.in>
+ssh key-gen -t rsa -C
+cat id_rsa.pub
