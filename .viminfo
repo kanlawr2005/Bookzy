@@ -34,18 +34,20 @@ $
 	t
 
 # File marks:
-'0  1  0  ~/Lesson-02/typo.ts
-'1  1  0  ~/Lesson-02/Texts.txt
-'2  1  0  ~/Lesson-02/Styles.css
-'3  5  0  ~/Lesson-02/index.js
-'4  11  0  ~/Lesson-02/index.html
-'5  9  0  ~/Lesson-02/HelloJava.java
-'6  11  0  ~/Lesson-02/C_Program.c
-'7  1  0  ~/Lesson-02/C_program.c
-'8  422  43  /etc/ansible/ansible.cfg
-'9  1  0  /etc/ansible/ansible.cfg
+'0  5  49  ~/Lesson-02/C_Program.c
+'1  1  0  ~/Lesson-02/typo.ts
+'2  1  0  ~/Lesson-02/Texts.txt
+'3  1  0  ~/Lesson-02/Styles.css
+'4  5  0  ~/Lesson-02/index.js
+'5  11  0  ~/Lesson-02/index.html
+'6  11  0  ~/Lesson-02/HelloJava.java
+'7  11  0  ~/Lesson-02/C_Program.c
+'8  9  0  ~/Lesson-02/index.js
+'9  21  0  ~/Lesson-02/index.html
 
 # Jumplist (newest first):
+-'  5  49  ~/Lesson-02/C_Program.c
+-'  1  0  ~/Lesson-02/C_Program.c
 -'  1  0  ~/Lesson-02/typo.ts
 -'  1  0  ~/Lesson-02/Texts.txt
 -'  1  0  ~/Lesson-02/Styles.css
@@ -53,10 +55,13 @@ $
 -'  1  0  ~/Lesson-02/index.js
 -'  11  0  ~/Lesson-02/index.html
 -'  1  0  ~/Lesson-02/index.html
--'  9  0  ~/Lesson-02/HelloJava.java
+-'  11  0  ~/Lesson-02/HelloJava.java
 -'  1  0  ~/Lesson-02/HelloJava.java
 -'  11  0  ~/Lesson-02/C_Program.c
--'  1  0  ~/Lesson-02/C_Program.c
+-'  9  0  ~/Lesson-02/index.js
+-'  21  0  ~/Lesson-02/index.html
+-'  19  0  ~/Lesson-02/HelloJava.java
+-'  21  0  ~/Lesson-02/C_Program.c
 -'  1  0  ~/Lesson-02/C_program.c
 -'  422  43  /etc/ansible/ansible.cfg
 -'  1  0  /etc/ansible/ansible.cfg
@@ -139,12 +144,16 @@ $
 -'  1  0  ~/lab/index.html
 -'  7  0  ~/lab/javaprog.java
 -'  1  0  ~/lab/javaprog.java
--'  7  0  ~/lab/javaprog.java
--'  1  0  ~/lab/javaprog.java
--'  7  0  ~/lab/index.html
--'  1  0  ~/lab/index.html
 
 # History of marks within files (newest to oldest):
+
+> ~/Lesson-02/C_Program.c
+	"	5	49
+	^	5	50
+	.	5	50
+	+	20	0
+	+	10	0
+	+	5	50
 
 > ~/Lesson-02/typo.ts
 	"	1	0
@@ -159,6 +168,7 @@ $
 	"	5	0
 	^	5	0
 	.	4	0
+	+	8	0
 	+	4	0
 
 > ~/Lesson-02/index.html
@@ -166,18 +176,15 @@ $
 	^	11	0
 	.	10	0
 	+	1	28
+	+	20	0
+	+	1	28
 	+	10	0
 
 > ~/Lesson-02/HelloJava.java
-	"	9	0
-	^	9	0
-	.	8	0
-	+	8	0
-
-> ~/Lesson-02/C_Program.c
 	"	11	0
 	^	11	0
 	.	10	0
+	+	18	0
 	+	10	0
 
 > ~/Lesson-02/C_program.c

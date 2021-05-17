@@ -708,3 +708,172 @@ cd ~/.ssh
 ssh key-gen -t rsa -C <kanlawr_2005@yahoo.co.in>
 ssh key-gen -t rsa -C
 cat id_rsa.pub
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git init
+git add .
+git commit . -m “I am pushing all the files to my Github”
+git commit -m "I am pushing all the files to my Github"
+git status
+git push origin master
+git remote add https://github.com/kanlawr/Lesson--02--GitFiles.git
+git status
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git push origin master
+git push add https://github.com/kanlawr/Lesson--02--GitFiles.git
+git remote add https://github.com/kanlawr/Lesson--02--GitFiles.git
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git push add https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git remote add git@bitbucket.org:Seagull812/lesson-02-gitfiles.git
+ls -lart
+git add .
+git status
+git remote -v
+git push orgin master
+git push git@bitbucket.org:Seagull812/lesson-02-gitfiles.git
+git remote add origin https://github.com/kanlawr/Lesson--02--GitFiles.git
+git remote add git remote add origin https://github.com/kanlawr/Lesson--02--GitFiles.git
+git status
+git push -u origin main
+git push -u git push -u https://github.com/kanlawr/Lesson--02--GitFiles.git
+git push origin master
+mkdir
+mkdir Lesson-02
+cd Lesson-02
+touch index.html Texts.txt C_Program.c HelloJava.java index.js styles.css typo.ts
+ls -l
+vi C_Program.c 
+vi HelloJava.java 
+vi index.html 
+vi index.js 
+vi Styles.css
+vi Texts.txt
+vi typo.ts
+git init
+git add .
+git commit . -m “I am pushing all the files to my Bitbucket”
+git commit -m “I am pushing all the files to my Bitbucket”
+git commit -m "This is my first commit"
+push orgin master
+git push origin master
+git remote add origin https://github.com/kanlawr2005/Lesson-02.git
+git push -u origin main
+git add .
+git status
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kanlawr2005/Lesson-02.git
+git remote add https://github.com/kanlawr2005/Lesson-02.git
+git remote -v
+git push -u origin main
+git remote -v
+git push -u origin main
+git status
+git add .
+git init
+git commit -m "I am pushing all the files to my Github"
+vi C_Program.c 
+git status
+git commit -m "I am pushing all the files to my Github"
+git rmeote -v
+git remote -v
+git init
+git add .
+git commit -m “I am pushing all the files to my Bitbucket”
+git status
+git add .
+git commit -m "I am pushing all the files to my Bitbucket"
+git clone https://bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git status
+git push origin master
+git push  -u origin main
+CLEAR
+git push origin master
+git remote add https://Seagull812@bitbucket.org/Seagull812/lesson-02.git
+git remote -v
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02.git
+git status
+git init
+git add .
+git commit -m “I am pushing all the files to my Github”
+git commit -m “I am pushing all the files to my Bitbucket”
+git init
+git push origin master
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02.git
+git init
+git add .
+cd lesson-02
+git init
+git add
+git add .
+git commit -m “I am pushing all the files to my Bitbucket”
+git remote -v
+git remote add https://Seagull812@bitbucket.org/Seagull812/lesson-02.git
+git remote -v
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02.git
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git push origin master
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02.git
+git init
+git add .
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02.git
+git remote -v
+git push origin master
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git push origin master
+git status
+git remote add https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git add .
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git remote set-url origin https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git remote -v  
+git status
+git commit -m “I am pushing all the files to my Bitbucket”
+git push --set-upstream origin master
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git add --all
+git commit -m -m “I am pushing all the files to my Bitbucket”
+git commit -m “I am pushing all the files to my Bitbucket”
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+cd Lesson-02
+git remote add origin https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git push -u origin master
+cd Lesson-02
+git init
+git add .
+git remote add origin https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git remote set-url origin https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git remote add origin https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git remote add origin https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git push -u origin master
+gfitgit push -u origin git push -u origin https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git push -u origin https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git clone <https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git> foo; mv foo/* foo/.git* .; rmdir foo
+rm -rf .* && git clone ssh:git clone git@bitbucket.org:Seagull812/lesson-02-gitfiles.git
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git remote set-url origin https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git clone <https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git>
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+clear
+git init
+git add --all
+git commit -m "Uploading allfiles to Bitbucket"
+git clone <https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git> 
+git remote -v
+git clone https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git remote add https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git clone <https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git> 
+git push -u origin master
+git push -u origin https://Seagull812bitbucket.org/Seagull/lesson-02-gitfiles.git
+git init
+git add --all
+git commit -m "Uploading all files to Bitbucket"
+git remote add origin https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git 
+git push -u origin master
+git remote add origin https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git 
+git push -u origin https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git push -u https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git clone --bare https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git
+git push -u origin master
+git push origin master --force

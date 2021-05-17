@@ -1,1 +1,32 @@
-[20210516-16:11:21] [CORE ] main: app started pid 5031(0x000013a7)
+[20210517-08:54:58] [CORE ] main: app started pid 6891(0x00001aeb)
+[20210517-08:58:49] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:04:02] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:11:53] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:18:51] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:18:56] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:19:08] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:21:14] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:23:39] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:23:47] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:23:58] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:24:13] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:24:24] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:24:32] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:36:14] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:36:18] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:39:11] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:39:12] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:39:19] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:39:49] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:40:00] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:40:31] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:48:39] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:48:49] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-09:49:03] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-10:21:37] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-10:21:56] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-11:06:35] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-11:06:37] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-11:54:56] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-11:55:16] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT
+[20210517-12:06:33] [ERROR] clipboard_event_selection_request: unknown target COMPOUND_TEXT

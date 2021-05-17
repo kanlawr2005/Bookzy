@@ -1,0 +1,6 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://Seagull812@bitbucket.org/Seagull812/lesson-02-gitfiles.git

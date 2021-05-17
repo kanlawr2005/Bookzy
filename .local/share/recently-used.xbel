@@ -57,12 +57,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/kanlawr2005yaho/git/Lesson-02" added="2021-05-16T06:15:48Z" modified="2021-05-16T06:21:27Z" visited="2021-05-16T06:15:49Z">
+  <bookmark href="file:///home/kanlawr2005yaho/git/Lesson-02" added="2021-05-16T06:15:48Z" modified="2021-05-16T17:59:57Z" visited="2021-05-16T06:15:49Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2021-05-16T06:21:27Z" count="3"/>
+          <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2021-05-16T17:59:57Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -103,6 +103,16 @@
         <mime:mime-type type="application/octet-stream"/>
         <bookmark:applications>
           <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2021-05-16T06:20:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kanlawr2005yaho/lesson-02-gitfiles" added="2021-05-16T18:00:30Z" modified="2021-05-16T18:00:30Z" visited="2021-05-16T18:00:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Eclipse" exec="&apos;Eclipse %u&apos;" modified="2021-05-16T18:00:30Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
