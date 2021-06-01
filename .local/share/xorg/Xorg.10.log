@@ -727,3 +727,70 @@ Release Date: 2017-03-02
 [ 11799.611] rdpRRGetPanning: 0x557214e472e0
 [ 11799.752] rdpRRGetPanning: 0x557214e472e0
 [ 11799.777] rdpRRGetPanning: 0x557214e472e0
+[ 13047.951] rdpClientConRecv: g_sck_recv failed(returned 0)
+[ 13047.951] rdpClientConDisconnect:
+[ 13047.951] rdpClientConDisconnect: clientCon removed from dev list
+[ 13047.951] rdpClientConRecvMsg: error
+[ 13047.951] rdpClientConCheck: rdpClientConGotData failed
+[ 13114.267] rdpClientConGotConnection:
+[ 13114.268] rdpClientConGotConnection: g_sck_accept ok new_sck 7
+[ 13114.268] rdpClientConGotConnection: adding only clientCon
+[ 13114.275] rdpClientConProcessMsgVersion: version 0 0 0 1
+[ 13114.275] rdpClientConProcessScreenSizeMsg: set width 1280 height 610 bpp 16
+[ 13114.276] rdpClientConProcessScreenSizeMsg: shmemid 3145751 shmemptr 0x7f570c67c000
+[ 13114.276] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1280 cy 610
+[ 13114.289] rdpClientConProcessMsgClientInfo:
+[ 13114.289]   got client info bytes 5792
+[ 13114.289]   jpeg support 0
+[ 13114.289]   offscreen support 0
+[ 13114.289]   offscreen size 0
+[ 13114.289]   offscreen entries 0
+[ 13114.289]   client supports glyph cache but server disabled
+[ 13114.289]   client can not do offscreen to offscreen blits
+[ 13114.289]   client can do new(color) cursor
+[ 13114.289]   client can not do multimon
+[ 13114.289] rdpRRSetRdpOutputs: numCrtcs 1
+[ 13114.289] rdpRRSetRdpOutputs: numOutputs 1
+[ 13114.289] rdpLoadLayout: keylayout 0x00000409 variant  display 10
+[ 13114.289] rdpkeybChangeKeyboardControl:
+[ 13114.289] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 13114.290] rdpkeybChangeKeyboardControl:
+[ 13114.290] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 13114.300] rdpRRGetPanning: 0x557214e472e0
+[ 13114.301] rdpRRGetPanning: 0x557214e472e0
+[ 13114.301] rdpRRGetPanning: 0x557214e472e0
+[ 13114.301] rdpRRGetPanning: 0x557214e472e0
+[ 13114.301] rdpRRGetInfo:
+[ 13114.301] rdpRRGetInfo:
+[ 13114.302] rdpRRGetPanning: 0x557214e472e0
+[ 13114.302] rdpRRGetPanning: 0x557214e472e0
+[ 13114.302] rdpRRGetPanning: 0x557214e472e0
+[ 13114.302] rdpRRGetPanning: 0x557214e472e0
+[ 13114.302] rdpRRGetPanning: 0x557214e472e0
+[ 13114.302] rdpRRGetPanning: 0x557214e472e0
+[ 13114.303] rdpRRGetPanning: 0x557214e472e0
+[ 13114.303] rdpRRGetPanning: 0x557214e472e0
+[ 13114.303] rdpRRGetPanning: 0x557214e472e0
+[ 13114.303] rdpRRGetPanning: 0x557214e472e0
+[ 13114.304] rdpRRGetInfo:
+[ 13114.304] rdpRRGetPanning: 0x557214e472e0
+[ 13114.304] rdpRRGetPanning: 0x557214e472e0
+[ 13114.304] rdpRRGetPanning: 0x557214e472e0
+[ 13114.304] rdpRRGetPanning: 0x557214e472e0
+[ 13114.304] rdpRRGetPanning: 0x557214e472e0
+[ 13114.304] rdpRRGetPanning: 0x557214e472e0
+[ 13114.305] rdpRRGetPanning: 0x557214e472e0
+[ 13114.305] rdpRRGetPanning: 0x557214e472e0
+[ 13114.305] rdpRRGetPanning: 0x557214e472e0
+[ 13114.305] rdpRRGetPanning: 0x557214e472e0
+[ 13114.305] rdpRRGetPanning: 0x557214e472e0
+[ 13114.309] rdpRRGetPanning: 0x557214e472e0
+[ 13114.309] rdpRRGetPanning: 0x557214e472e0
+[ 13114.309] rdpRRGetPanning: 0x557214e472e0
+[ 13114.310] rdpRRGetPanning: 0x557214e472e0
+[ 13114.310] rdpRRGetPanning: 0x557214e472e0
+[ 13114.392] rdpInDeferredUpdateCallback:
+[ 13114.392] rdpkeybChangeKeyboardControl:
+[ 13114.392] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 13114.392] rdpkeybChangeKeyboardControl:
+[ 13114.392] rdpkeybChangeKeyboardControl: autoRepeat off
